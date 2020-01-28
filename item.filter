@@ -268,8 +268,8 @@ ItemDisplay[MAG !ID rin ILVL<65]: %NAME% %GRAY%%ILVL%
 //ItemDisplay[MAG !ID EQ2 EXC !ETH]: %NAME% %PRICE%
 //ItemDisplay[MAG !ID EQ7 !ETH]: %NAME% %PRICE%
 //ItemDisplay[MAG !ID EQ4 !ETH]: %NAME% %RED%probably sucks
-ItemDisplay[MAG !ID cm1]: %BLACK%° %TAN%charm %BLACK%°%GRAY%%ILVL%
-ItemDisplay[MAG !ID cm3]: %BLACK%Ö %TAN%CHARM %BLACK%Ö%GRAY%%ILVL%
+ItemDisplay[MAG !ID cm1]: %BLACK%° %ORANGE%charm %BLACK%°%GRAY%%ILVL%
+ItemDisplay[MAG !ID cm3]: %BLACK%Ö %ORANGE%CHARM %BLACK%Ö%GRAY%%ILVL%
 ItemDisplay[MAG !ID cm2 ILVL<70]: %BLACK%< %TAN%large %BLACK%>%GRAY%%ILVL%
 ItemDisplay[MAG !ID ci2 !ETH]: %RED%÷ %BLUE%%NAME% %RED%÷
 ItemDisplay[MAG !ID ci3 !ETH]: %RED%÷ %BLUE%%NAME% %RED%÷
