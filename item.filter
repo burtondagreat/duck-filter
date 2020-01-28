@@ -1,6 +1,6 @@
 //╔══════════════════════════════════════════╗
 //║ L@@K ^^ Item Codes @ Path of Diablo Wiki ║
-//║ Duck Filter 1.1 Release                  ║
+//║ Duck Filter 1.2 Release                  ║
 //║ PATCH: Flint                  		Quack║
 //╚══════════════════════════════════════════╝
 ItemDisplay[CLVL>79 GOLD<5000]:
@@ -237,10 +237,10 @@ ItemDisplay[MAG ulc ILVL>70]:
 //╔═════════╗
 //║ DISPLAY ║
 //╚═════════╝
-ItemDisplay[ID MAG amu]: %NAME% %GRAY%%ILVL%
-ItemDisplay[ID MAG cm1]: %TAN%%NAME% %GRAY%%ILVL%
+ItemDisplay[ID MAG amu]: %ORANGE%%NAME% %GRAY%%ILVL%
+ItemDisplay[ID MAG cm1]: %ORANGE%%NAME% %GRAY%%ILVL%
 ItemDisplay[ID MAG cm2]: %TAN%%NAME% %GRAY%%ILVL%
-ItemDisplay[ID MAG cm3]: %TAN%%NAME% %GRAY%%ILVL%
+ItemDisplay[ID MAG cm3]: %ORANGE%%NAME% %GRAY%%ILVL%
 ItemDisplay[ID MAG SOCK=0 !ETH]: %NAME%
 ItemDisplay[ID MAG SOCK=0 ETH]: %NAME% æ
 ItemDisplay[ID MAG !SOCK=0 !ETH]: %NAME% (%SOCKETS%)
@@ -262,11 +262,11 @@ ItemDisplay[ID UNI !SOCK=0 ETH]: %NAME% %BLUE%æ(%SOCKETS%)
 //╔═══════╗
 //║ MAGIC ║
 //╚═══════╝
-ItemDisplay[MAG !ID amu]: %NAME% %GRAY%%ILVL%
+ItemDisplay[MAG !ID amu]: %ORANGE%%NAME% %GRAY%%ILVL%
 ItemDisplay[MAG !ID rin ILVL<65]: %NAME% %GRAY%%ILVL%
-ItemDisplay[MAG !ID EQ2 ELT !ETH]: %NAME% %PRICE%
-ItemDisplay[MAG !ID EQ2 EXC !ETH]: %NAME% %PRICE%
-ItemDisplay[MAG !ID EQ7 !ETH]: %NAME% %PRICE%
+//ItemDisplay[MAG !ID EQ2 ELT !ETH]: %NAME% %PRICE%
+//ItemDisplay[MAG !ID EQ2 EXC !ETH]: %NAME% %PRICE%
+//ItemDisplay[MAG !ID EQ7 !ETH]: %NAME% %PRICE%
 //ItemDisplay[MAG !ID EQ4 !ETH]: %NAME% %RED%probably sucks
 ItemDisplay[MAG !ID cm1]: %BLACK%° %TAN%charm %BLACK%°%GRAY%%ILVL%
 ItemDisplay[MAG !ID cm3]: %BLACK%Ö %TAN%CHARM %BLACK%Ö%GRAY%%ILVL%
@@ -330,8 +330,8 @@ ItemDisplay[RARE !ID (uui OR urs OR utp) !ETH]:
 ItemDisplay[RARE !ID (uea OR ula OR utu) !ETH]:
 ItemDisplay[RARE !ID (gth OR xth OR uth) !ETH]:
 ItemDisplay[RARE !ID (aar OR xar OR uar) !ETH]:
-ItemDisplay[RARE !ID EQ2 ELT !ETH]: %NAME% %PRICE%
-ItemDisplay[RARE !ID EQ2 EXC !ETH]: %NAME% %PRICE%
+//ItemDisplay[RARE !ID EQ2 ELT !ETH]: %NAME% %PRICE%
+//ItemDisplay[RARE !ID EQ2 EXC !ETH]: %NAME% %PRICE%
 ItemDisplay[RARE !ID uit !ETH]:
 ItemDisplay[RARE !ID xit !ETH]:
 ItemDisplay[RARE !ID kit !ETH]:
@@ -422,7 +422,7 @@ ItemDisplay[SET !ID vbt]: %GREEN%¤ %DGREEN%Heavy Boots %GREEN%¤
 ItemDisplay[SET !ID uui]: %GREEN%¤ %DGREEN%Dark Adherent %GREEN%¤
 ItemDisplay[SET !ID xlb]: %GREEN%¤ %DGREEN%Rite of Passage %GREEN%¤
 ItemDisplay[SET !ID umc]: %GREEN%¤ %DGREEN%Credendum %GREEN%¤
-ItemDisplay[SET !ID uhm !ETH]: %GOLD%¤¤¤¤¤¤ %PURPLE%Ondal's Almighty %GOLD%¤¤¤¤¤¤
+ItemDisplay[SET !ID uhm !ETH]: %GOLD%¤¤¤¤¤¤ %DGREEN%%Ondal's Almighty %GOLD%¤¤¤¤¤¤
 ItemDisplay[SET !ID xrs]: %GREEN%¤ %DGREEN%Haemosu's Adament %GREEN%¤
 ItemDisplay[SET !ID uts]: %GREEN%¤ %DGREEN%Taebaek's Glory %GREEN%¤
 ItemDisplay[SET !ID ci0]: %GREEN%¤ %DGREEN%Naj's Circlet %GREEN%¤
@@ -440,8 +440,9 @@ ItemDisplay[SET !ID ILVL>70]: %BLACK%TUMOR DONATION %GREEN%%NAME%
 //║ NMAG ║
 //╚══════╝
 // 35,000 G
-ItemDisplay[NMAG (wnd OR ywn OR 9wn) !ETH (SK83>2 OR SK85>2 OR SK87>2 OR SK88>2 OR SK90>1)]: %WHITE%%PRICE% %TAN%g
-ItemDisplay[NMAG (wnd OR ywn OR 9wn) !ETH (SK91>1 OR SK92>0 OR SK93>1 OR SK94>1 OR SK95>0)]: %WHITE%%PRICE% %TAN%g
+ItemDisplay[WP12 NMAG !ETH (wnd OR ywn OR 9wn) ILVL>49 (SK73>0 OR SK79=3 OR SK82=3 OR SK83>1 OR SK85=3 OR SK86>1 OR SK87>0 OR SK88>0 OR SK89>0 OR SK90>1 OR SK91>1 OR SK92>0 OR SK93>0 OR SK94>0 OR SK95>0)]: %NAME% %ORANGE%($%PRICE%)
+ItemDisplay[WP12 NMAG !ETH SOCK=1 (SK73>0 OR SK79=3 OR SK82=3 OR SK83>1 OR SK85=3 OR SK86>1 OR SK87>0 OR SK88>0 OR SK89>0 OR SK90>1 OR SK91>1 OR SK92>0 OR SK93>0 OR SK94>0 OR SK95>0)]: %NAME% %ORANGE%($%PRICE%)
+ItemDisplay[NMAG !ETH (7tk OR 7ta OR 7bk)]: Throw%ORANGE% ($%PRICE%)
 // NMAG Filter
 ItemDisplay[NMAG SOCK=1 ILVL<30]: %NAME%
 ItemDisplay[NMAG INF]:
@@ -756,8 +757,8 @@ ItemDisplay[NMAG EQ2 ELT ETH ED=15 SOCK=0]: %PURPLE%+ %GRAY%%NAME% %PURPLE%+ %BL
 ItemDisplay[NMAG EQ2 ELT ETH ED=15 SOCK>1]: %PURPLE%+ %GRAY%%NAME% %PURPLE%+ %BLUE%æ(%SOCKETS%)
 ItemDisplay[NMAG EQ2 ELT ETH (ED>4 AND ED<15) SOCK=0]: %RED%+ %GRAY%%NAME% %RED%+ %BLUE%æ
 ItemDisplay[NMAG EQ2 ELT ETH (ED>4 AND ED<15) SOCK>1]: %RED%+ %GRAY%%NAME% %RED%+ %BLUE%æ(%SOCKETS%)
-ItemDisplay[NMAG EXC EQ2]: %NAME% %PRICE%
-ItemDisplay[NMAG ELT EQ2]: %NAME% %PRICE%
+//ItemDisplay[NMAG EXC EQ2]: %NAME% %PRICE%
+//ItemDisplay[NMAG ELT EQ2]: %NAME% %PRICE%
 ItemDisplay[NMAG EQ2 SOCK>1 !ETH ILVL<64]: %NAME% %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG EQ2 SOCK>1 ETH ILVL<64]: %NAME% %BLUE%æ(%SOCKETS%)
 ItemDisplay[NMAG EQ2 SOCK>1 ILVL>63]:
@@ -874,8 +875,8 @@ ItemDisplay[NMAG 7wc ETH SOCK=4]: %ORANGE%GIANT THRESHER %PURPLE%GREETINGS FROM 
 //ItemDisplay[NMAG 7wc SOCK=0 !SUP]: %RED%+ %ORANGE%%NAME% %RED%+
 //ItemDisplay[NMAG 7wc SOCK=4]: %RED%+++ %ORANGE%%NAME% %RED%+++ %BLUE%(%SOCKETS%)
 //ItemDisplay[NMAG 7wc !SOCK=2 !SUP]: %NAME% %BLUE%(%SOCKETS%)
-ItemDisplay[NMAG 7pa !ETH SOCK=0]: %RED%HYPE! %PURPLE%CRYPTIC AXE GREETINGS FROM GERMANY %RED%HYPE!
-ItemDisplay[NMAG 7pa !ETH SOCK=5]: %RED%5os wow! %PURPLE%CRYPTIC AXE WOW %RED%5os wow!
+//ItemDisplay[NMAG 7pa !ETH SOCK=0]: %RED%HYPE! %PURPLE%CRYPTIC AXE GREETINGS FROM GERMANY %RED%HYPE!
+//ItemDisplay[NMAG 7pa !ETH SOCK=5]: %RED%5os wow! %PURPLE%CRYPTIC AXE WOW %RED%5os wow!
 ItemDisplay[NMAG WP8 SOCK=4 !ETH ILVL<68]: %ORANGE%%NAME% %BLUE%(%SOCKETS%) %PURPLE%+++++
 ItemDisplay[NMAG WP8 SOCK=4 ETH ILVL<68]: %ORANGE%%NAME% %BLUE%æ(%SOCKETS%) %PURPLE%+++++
 ItemDisplay[NMAG WP8 SOCK>3 !ETH ILVL<64]: %NAME% %BLUE%(%SOCKETS%)
