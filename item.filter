@@ -398,8 +398,8 @@ ItemDisplay[SET !ID xmg]: %GREEN%¤¤ Trang-Oul's Claws ¤¤
 ItemDisplay[SET !ID xar]: %GREEN%%NAME%
 ItemDisplay[SET !ID urn]: %GREEN%%NAME%
 ItemDisplay[SET !ID paf]: %GREEN%%NAME%
-ItemDisplay[SET !ID zvb]: %GREEN%¤¤ M'avina's Tenet ¤¤
-ItemDisplay[SET !ID 7qr]: %GREEN%¤¤ Natalya's Mark ¤¤
+ItemDisplay[SET !ID zvb]: %GREEN%¤¤¤ %PURPLE%M'avina's Tenet %GREEN%¤¤¤
+ItemDisplay[SET !ID 7qr]: %GREEN%¤¤¤ %PURPLE%Natalya's Mark %GREEN%¤¤¤
 ItemDisplay[SET !ID xmb]: %GREEN%¤¤ Natalya's Soul ¤¤
 ItemDisplay[SET !ID 6cs]: %GREEN%¤¤ Naj's Puzzler ¤¤
 ItemDisplay[SET !ID ult]: %GREEN%¤¤ Naj's Light Plate ¤¤
@@ -438,7 +438,7 @@ ItemDisplay[SET !ID 7wd]: %GREEN%¤ %DGREEN%Bul-Kathos' Tribal Guardian %GREEN%�
 // SET Filter
 ItemDisplay[SET !ID ILVL<71]: %NAME%
 ItemDisplay[SET !ID ILVL<87]: %BLACK%TUMOR DONATION %GREEN%%NAME%
-ItemDisplay[SET !ID ILVL>86]: %BLACK%TUMOR DONATION %GREEN%%NAME%
+ItemDisplay[SET !ID ILVL>86]:
 //╔══════╗
 //║ NMAG ║
 //╚══════╝
@@ -1355,5 +1355,5 @@ ItemDisplay[UNI !ID am7]: %GOLD%¤ Lycander's Aim ¤
 ItemDisplay[UNI !ID !ETH ILVL<71]: %NAME%
 ItemDisplay[UNI !ID ETH ILVL<71]: æ %NAME%
 ItemDisplay[UNI !ID ILVL<87]: %BLACK%OMEGALUL %TAN%%NAME% %BLACK%OMEGALUL
-ItemDisplay[UNI !ID ILVL>86]: %BLACK%OMEGALUL %TAN%%NAME% %BLACK%OMEGALUL
+ItemDisplay[UNI !ID ILVL>86]:
 // End of Loot Filter
