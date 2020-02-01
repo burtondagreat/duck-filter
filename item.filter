@@ -1,6 +1,6 @@
 //╔══════════════════════════════════════════╗
 //║ L@@K ^^ Item Codes @ Path of Diablo Wiki ║
-//║ Duck Filter 1.2 Release                  ║
+//║ Duck Filter 1.2c Release                 ║
 //║ PATCH: Flint                  		Quack║
 //╚══════════════════════════════════════════╝
 ItemDisplay[CLVL>79 GOLD<5000]:
@@ -64,15 +64,17 @@ ItemDisplay[MAG ID WP13 (TABSK24>2 AND SK121>2)]: %RED%¤¤¤¤¤¤¤¤¤ %PURPL
 //╚═══════════╝
 ItemDisplay[ibk]: %NAME%
 ItemDisplay[tbk]: %NAME%
+ItemDisplay[CLVL<45 isc]: %BLACK%¯%DGREEN%?%BLACK%¯
+ItemDisplay[CLVL<33 tsc]: %BLACK%¯%GRAY%¶%BLACK%¯
 ItemDisplay[CLVL>44 isc]:
 ItemDisplay[CLVL>32 tsc]:
 ItemDisplay[ILVL<87 key]: %GRAY%%NAME%
-ItemDisplay[CLVL<45 isc]: %BLACK%¯%DGREEN%?%BLACK%¯
-ItemDisplay[CLVL<33 tsc]: %BLACK%¯%GRAY%¶%BLACK%¯
+ItemDisplay[ILVL>86 key]:
 ItemDisplay[box]: %GRAY%Quite a treasure!
 ItemDisplay[hp5]: %BLACK%¯%RED%ð%BLACK%¯
 ItemDisplay[mp5]: %BLACK%¯%BLUE%ð%BLACK%¯
-ItemDisplay[rvs]: %BLACK%¯%PURPLE%ð%BLACK%¯
+ItemDisplay[rvs ILVL<85]: %BLACK%¯%PURPLE%ð%BLACK%¯
+ItemDisplay[rvs ILVL>84]:
 ItemDisplay[rvl]: %BLACK%¯%PURPLE%®%BLACK%¯
 ItemDisplay[CLVL>64 hp4]:
 ItemDisplay[CLVL>44 hp3]:
@@ -92,6 +94,8 @@ ItemDisplay[CLVL<25 mp2]: %BLACK%¯%BLUE%ð%BLACK%¯
 ItemDisplay[CLVL<12 mp1]: %BLACK%¯%BLUE%ð%BLACK%¯
 ItemDisplay[leg]: %ORANGE%%NAME%
 ItemDisplay[ear]: %ORANGE%%NAME%
+ItemDisplay[yps ILVL=87]: %DGREEN%@
+ItemDisplay[yps ILVL=88]: %DGREEN%@
 ItemDisplay[yps]:
 ItemDisplay[wms]:
 ItemDisplay[gpm]:
@@ -111,13 +115,14 @@ ItemDisplay[gpr]: %BLACK%«%RED%GEM%BLACK%»
 ItemDisplay[gpb]: %BLACK%«%BLUE%GEM%BLACK%»
 ItemDisplay[gpy]: %BLACK%«%YELLOW%GEM%BLACK%»
 ItemDisplay[skz]: %BLACK%«%GRAY%SKULL%BLACK%»
-ItemDisplay[gzv]: %PURPLE%«%GRAY%gem
-ItemDisplay[glw]: %WHITE%«%GRAY%gem
-ItemDisplay[glg]: %GREEN%«%GRAY%gem
-ItemDisplay[glr]: %RED%«%GRAY%gem
-ItemDisplay[glb]: %BLUE%«%GRAY%gem
-ItemDisplay[gly]: %YELLOW%«%GRAY%gem
-ItemDisplay[skl]: %BLACK%«%GRAY%sku
+ItemDisplay[gzv ILVL<87]: %PURPLE%«%GRAY%gem
+ItemDisplay[glw ILVL<87]: %WHITE%«%GRAY%gem
+ItemDisplay[glg ILVL<87]: %GREEN%«%GRAY%gem
+ItemDisplay[glr ILVL<87]: %RED%«%GRAY%gem
+ItemDisplay[glb ILVL<87]: %BLUE%«%GRAY%gem
+ItemDisplay[gly ILVL<87]: %YELLOW%«%GRAY%gem
+ItemDisplay[skl ILVL<87]: %BLACK%«%GRAY%sku
+ItemDisplay[ILVL>86 (gzv OR glw OR glg OR glr OR glb OR gly OR skl)]:
 ItemDisplay[CLVL>39 (gsv OR gsw OR gsg OR gsr OR gsb OR gsy OR sku)]:
 ItemDisplay[CLVL>29 (gfv OR gfw OR gfg OR gfr OR gfb OR gfy OR skf)]:
 ItemDisplay[CLVL>19 (gcv OR gcw OR gcg OR gcr OR gcb OR gcy OR skc)]:
@@ -290,7 +295,8 @@ ItemDisplay[MAG !ID ILVL>63]:
 //║ RARES ║
 //╚═══════╝
 ItemDisplay[RARE !ID aq2]: %PURPLE%÷ %YELLOW%%NAME% %PURPLE%÷
-ItemDisplay[RARE !ID cq2]: %PURPLE%÷ %YELLOW%BOLTS 4 BURTS %PURPLE%÷
+//ItemDisplay[RARE !ID cq2]: %PURPLE%÷ %YELLOW%BOLTS 4 BURTS %PURPLE%÷
+ItemDisplay[RARE !ID cq2]:
 ItemDisplay[RARE !ID amu]: %RED%÷÷ %YELLOW%%NAME% %RED%÷÷
 ItemDisplay[RARE !ID rin]: %RED%÷÷ %YELLOW%%NAME% %RED%÷÷
 ItemDisplay[RARE !ID jew]: %BLACK%{%RED%J%ORANGE%E%YELLOW%W%GREEN%E%BLUE%L%BLACK%}%PURPLE%×
@@ -435,7 +441,8 @@ ItemDisplay[SET !ID upl]: %GREEN%¤ %DGREEN%Sazabi's Ghost Liberator %GREEN%¤
 ItemDisplay[SET !ID 7wd]: %GREEN%¤ %DGREEN%Bul-Kathos' Tribal Guardian %GREEN%¤
 // SET Filter
 ItemDisplay[SET !ID ILVL<71]: %NAME%
-ItemDisplay[SET !ID ILVL>70]: %BLACK%TUMOR DONATION %GREEN%%NAME%
+ItemDisplay[SET !ID ILVL<87]: %BLACK%TUMOR DONATION %GREEN%%NAME%
+ItemDisplay[SET !ID ILVL>86]: %BLACK%TUMOR DONATION %GREEN%%NAME%
 //╔══════╗
 //║ NMAG ║
 //╚══════╝
@@ -1351,5 +1358,6 @@ ItemDisplay[UNI !ID am7]: %GOLD%¤ Lycander's Aim ¤
 // UNI Filter
 ItemDisplay[UNI !ID !ETH ILVL<71]: %NAME%
 ItemDisplay[UNI !ID ETH ILVL<71]: æ %NAME%
-ItemDisplay[UNI !ID ILVL>70]: %BLACK%OMEGALUL %TAN%%NAME% %BLACK%OMEGALUL
+ItemDisplay[UNI !ID ILVL<87]: %BLACK%OMEGALUL %TAN%%NAME% %BLACK%OMEGALUL
+ItemDisplay[UNI !ID ILVL>86]: %BLACK%OMEGALUL %TAN%%NAME% %BLACK%OMEGALUL
 // End of Loot Filter
