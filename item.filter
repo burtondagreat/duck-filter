@@ -418,8 +418,8 @@ ItemDisplay[SET !ID xtg]: %GREEN%¤ %DGREEN%M'avina's Icy Clutch %GREEN%¤
 ItemDisplay[SET !ID ba5]: %GREEN%¤ %DGREEN%Immortal King's Will %GREEN%¤
 ItemDisplay[SET !ID xhg]: %GREEN%¤ %DGREEN%Immortal King's Forge %GREEN%¤
 ItemDisplay[SET !ID 7m7]: %BLACK%¤ %DGREEN%wow, a maul %BLACK%lol ¤
-ItemDisplay[SET !ID lbl]: %GREEN%¤ %DGREEN%Death's Hand %GREEN%¤
-ItemDisplay[SET !ID lgl]: %GREEN%¤ %DGREEN%Death's Guard %GREEN%¤
+ItemDisplay[SET !ID lbl]: %GREEN%¤ %DGREEN%Death's Guard %GREEN%¤
+ItemDisplay[SET !ID lgl]: %GREEN%¤ %DGREEN%Death's Hand %GREEN%¤
 ItemDisplay[SET !ID vbt]: %GREEN%¤ %DGREEN%Heavy Boots %GREEN%¤
 ItemDisplay[SET !ID uui]: %GREEN%¤ %DGREEN%Dark Adherent %GREEN%¤
 ItemDisplay[SET !ID xlb]: %GREEN%¤ %DGREEN%Rite of Passage %GREEN%¤
@@ -829,10 +829,12 @@ ItemDisplay[NMAG 7gd ETH SOCK=6]: %PURPLE%+++++ %ORANGE%COLOSSUS BLADE %PURPLE%+
 //ItemDisplay[NMAG crs !ETH SOCK>3]: %ORANGE%%NAME% %BLUE%(%SOCKETS%)
 //ItemDisplay[NMAG crs ETH SOCK>3]:
 ItemDisplay[NMAG crs !ETH SOCK=0 ILVL=28]: %ORANGE%%NAME% %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG 7cr SOCK=3 ED=15]: %PURPLE%+++++ %ORANGE%PHASE BLADE %PURPLE%+++++
 ItemDisplay[NMAG 7cr SOCK=6 ED=15]: %PURPLE%+++++ %ORANGE%PHASE BLADE %PURPLE%+++++
 ItemDisplay[NMAG 7cr SOCK=5 ED=15]: %PURPLE%+++++ %ORANGE%PHASE BLADE %PURPLE%+++++ %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG 7cr SOCK=6 (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Phase Blade %RED%+++ %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG 7cr SOCK=5 (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Phase Blade %RED%+++ %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG 7cr SOCK=3 !SUP]: %NAME% %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG 7cr SOCK=5 !SUP]: %NAME% %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG 7cr SOCK=6 !SUP]: %NAME% %BLUE%(%SOCKETS%)
 //ItemDisplay[NMAG 72h !ETH SOCK=3 !SUP]: %NAME% %BLUE%(%SOCKETS%)
