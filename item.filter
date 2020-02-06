@@ -706,8 +706,8 @@ ItemDisplay[NMAG EQ1]:
 //ItemDisplay[NMAG gth !ETH !SUP SOCK>1]: %NAME% %BLUE%(%SOCKETS%)
 //ItemDisplay[NMAG aar !ETH !SUP SOCK>1]: %NAME% %BLUE%(%SOCKETS%)
 //ItemDisplay[NMAG xrs !ETH !SUP SOCK>1]: %NAME% %BLUE%(%SOCKETS%)
-//ItemDisplay[NMAG xtp !ETH !SUP SOCK>1]: %NAME% %BLUE%(%SOCKETS%)
-ItemDisplay[NMAG rng !ETH !SUP SOCK=3]: %NAME% %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG xtp !ETH !SUP SOCK=3 DEF>250]: %NAME% %BLUE%(%SOCKETS%)
+//ItemDisplay[NMAG rng !ETH !SUP SOCK=3]: %NAME% %BLUE%(%SOCKETS%)
 //ItemDisplay[NMAG uui !ETH !SUP SOCK=0]: %NAME%
 //ItemDisplay[NMAG uea !ETH !SUP SOCK=0]: %NAME%
 //ItemDisplay[NMAG ula !ETH !SUP SOCK=0]: %NAME%
@@ -719,12 +719,12 @@ ItemDisplay[NMAG utp !ETH !SUP SOCK=0 DEF>500]: %NAME%
 //ItemDisplay[NMAG uld !ETH !SUP SOCK=0]: %NAME%
 //ItemDisplay[NMAG uth !ETH !SUP SOCK=0]: %NAME%
 //ItemDisplay[NMAG uar !ETH !SUP SOCK=0]: %NAME%
-ItemDisplay[NMAG uui !ETH !SUP SOCK>1 DEF>450]: %NAME% %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG uui !ETH !SUP SOCK>1 DEF>400]: %NAME% %BLUE%(%SOCKETS%)
 //ItemDisplay[NMAG uea !ETH !SUP SOCK>1]: %NAME% %BLUE%(%SOCKETS%)
 //ItemDisplay[NMAG ula !ETH !SUP SOCK>1]: %NAME% %BLUE%(%SOCKETS%)
 //ItemDisplay[NMAG utu !ETH !SUP SOCK>1]: %NAME% %BLUE%(%SOCKETS%)
 //ItemDisplay[NMAG urs !ETH !SUP SOCK>1]: %NAME% %BLUE%(%SOCKETS%)
-ItemDisplay[NMAG utp !ETH !SUP SOCK>1 DEF>500]: %NAME% %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG utp !ETH !SUP SOCK>1 DEF>470]: %NAME% %BLUE%(%SOCKETS%)
 //ItemDisplay[NMAG uhn !ETH !SUP SOCK>1]: %NAME% %BLUE%(%SOCKETS%)
 //ItemDisplay[NMAG upl !ETH !SUP SOCK>1]: %NAME% %BLUE%(%SOCKETS%)
 //ItemDisplay[NMAG uld !ETH !SUP SOCK>1]: %NAME% %BLUE%(%SOCKETS%)
