@@ -16,10 +16,10 @@ ItemDisplay[ma2]: %PURPLE%¤¤¤¤ %RED%TIER %PURPLE%4 %RED%MAP %PURPLE%unfortun
 ItemDisplay[ma6]: %RED%³ %GOLD%Tier %RED%3 %GOLD%Map %RED%³
 ItemDisplay[ma5]: %WHITE%² %YELLOW%Tier %WHITE%2 %YELLOW%Map %WHITE%²
 ItemDisplay[ma4]: %GREEN%¹ %DGREEN%Tier %GREEN%1 %DGREEN%Map %GREEN%¹
-ItemDisplay[fed]: %GREEN%¤¤¤¤¤¤¤¤¤¤ ESSENCE ¤¤¤¤¤¤¤¤¤¤
-ItemDisplay[tes]: %BLUE%¤¤¤ ESSENCE ¤¤¤
-ItemDisplay[ceh]: %YELLOW%¤¤¤ ESSENCE ¤¤¤
-ItemDisplay[bet]: %RED%¤¤¤ ESSENCE ¤¤¤
+ItemDisplay[fed]: %GREEN%¤¤¤¤¤¤¤¤¤¤ SAND ¤¤¤¤¤¤¤¤¤¤
+ItemDisplay[tes]: %BLUE%¤¤¤ SAND ¤¤¤
+ItemDisplay[ceh]: %YELLOW%¤¤¤ SAND ¤¤¤
+ItemDisplay[bet]: %RED%¤¤¤ SAND ¤¤¤
 ItemDisplay[toa]: %WHITE%%NAME%
 ItemDisplay[cx7]: %TAN%Î %ORANGE%CHAOS %TAN%Î
 ItemDisplay[pk1]: %TAN%Î %PURPLE%TERROR %TAN%Î
