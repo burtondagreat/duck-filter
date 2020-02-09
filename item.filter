@@ -756,7 +756,7 @@ ItemDisplay[NMAG EQ2]:
 // EQ3
 ItemDisplay[NMAG uit !ETH !SUP SOCK=4]: %RED%+ %GRAY%%NAME% %RED%+ %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG uit !ETH !SUP SOCK=3]: %RED%+ %GRAY%%NAME% %RED%+ %BLUE%(%SOCKETS%)
-ItemDisplay[NMAG uit !ETH !SUP SOCK=0]: %NAME%
+ItemDisplay[NMAG uit !ETH !SUP SOCK=0]: %RED%+ %GRAY%%NAME% %RED%+
 //ItemDisplay[NMAG kit !ETH !SUP SOCK=3 DEF=18]: %NAME% %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG bsh !ETH !SUP SOCK=2 ILVL<71]: %ORANGE%Rhyme Base %BLUE%(%SOCKETS%)
 //ItemDisplay[NMAG gts !ETH !SUP SOCK=3 DEF=35]: %NAME% %BLUE%(%SOCKETS%)
@@ -1058,7 +1058,7 @@ ItemDisplay[UNI !ID xvg !ETH]: %GOLD%¤ %WHITE%Gravepalm %GOLD%¤
 // EQ5
 ItemDisplay[UNI !ID xtb !ETH]: %GOLD%¤¤¤¤¤¤ %PURPLE%War Traveler %GOLD%¤¤¤¤¤¤
 ItemDisplay[UNI !ID xhb !ETH]: %GOLD%¤¤¤¤¤¤ %PURPLE%Gore Rider %GOLD%¤¤¤¤¤¤
-ItemDisplay[UNI !ID xmb !ETH]: %GOLD%¤¤¤ %PURPLE%Silkweave %GOLD%¤¤¤
+ItemDisplay[UNI !ID xmb !ETH]: %GOLD%¤¤¤ %RED%Silkweave %GOLD%¤¤¤
 ItemDisplay[UNI !ID uvb !ETH]: %GOLD%¤¤¤ %RED%Sandstorm Trek %GOLD%¤¤¤
 //ItemDisplay[UNI !ID lbt !ETH]: %GOLD%¤ %WHITE%Hotspur %GOLD%¤
 //ItemDisplay[UNI !ID uhb !ETH]: %GOLD%¤ %RED%Shadow Dancer %GOLD%¤
