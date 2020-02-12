@@ -279,12 +279,12 @@ ItemDisplay[MAG !ID ci0 !ETH]: %RED%÷ %BLUE%%NAME% %RED%÷
 ItemDisplay[MAG !ID ci1 !ETH]: %RED%÷ %BLUE%%NAME% %RED%÷
 ItemDisplay[MAG !ID ci2 !ETH]: %RED%÷ %BLUE%%NAME% %RED%÷
 ItemDisplay[MAG !ID ci3 !ETH]: %RED%÷ %BLUE%%NAME% %RED%÷
-ItemDisplay[MAG !ID jew IAS>1 ED>1]: %PURPLE%IAS/ED JEWEL
-ItemDisplay[MAG !ID jew IAS>1]: %RED%IAS Jewel
-ItemDisplay[MAG !ID jew ED>1]: %RED%ED Jewel
+//ItemDisplay[MAG !ID jew IAS>1 ED>1]: %PURPLE%IAS/ED JEWEL
+//ItemDisplay[MAG !ID jew IAS>1]: %RED%IAS Jewel
+//ItemDisplay[MAG !ID jew ED>1]: %RED%ED Jewel
 ItemDisplay[MAG !ID jew]: %BLACK%{%BLUE%%NAME%%BLACK%}
 ItemDisplay[MAG !ID CL5 (!ktr !wrb !axf !ces !clw !btl !skr !9ar !9wb !9xf)]: %RED%+ %BLUE%Claw %RED%+
-ItemDisplay[MAG !ID CL1]: %NAME%
+ItemDisplay[MAG !ID CL1]: %RED%÷ %NAME% %RED%÷
 //ItemDisplay[MAG !ID CL2]: %NAME%
 // MAG Filter
 ItemDisplay[MAG !ID aq2 ILVL<64]: × %NAME% ×
@@ -302,19 +302,14 @@ ItemDisplay[RARE !ID amu]: %RED%÷÷ %YELLOW%%NAME% %RED%÷÷
 ItemDisplay[RARE !ID rin]: %RED%÷÷ %YELLOW%%NAME% %RED%÷÷
 ItemDisplay[RARE !ID jew]: %BLACK%{%RED%J%ORANGE%E%YELLOW%W%GREEN%E%BLUE%L%BLACK%}%PURPLE%×
 // Class
-ItemDisplay[RARE !ID dr1 !ETH]: *%NAME%*
-ItemDisplay[RARE !ID CL1 !ETH]: %NAME%
-ItemDisplay[RARE !ID ba1 !ETH]: *%NAME%*
-ItemDisplay[RARE !ID CL2 !ETH]: %NAME%
+ItemDisplay[RARE !ID CL1 !ETH]: %RED%÷ %YELLOW%%NAME% %RED%÷
+ItemDisplay[RARE !ID CL2 !ETH]:
 ItemDisplay[RARE !ID pab !ETH]:
 ItemDisplay[RARE !ID CL3 !ETH]:
 ItemDisplay[RARE !ID (ne5 OR nea OR nef) !ETH]:
 ItemDisplay[RARE !ID CL4 !ETH]:
-ItemDisplay[RARE !ID (9tw OR 7tw) !ETH]: *%NAME%*
-ItemDisplay[RARE !ID (9lw OR 7lw) !ETH]: %NAME%
-ItemDisplay[RARE !ID (9qr OR 7qr) !ETH]: %NAME%
-ItemDisplay[RARE !ID (7ar OR 7wb) !ETH]: %NAME%
-ItemDisplay[RARE !ID (ob5 OR oba OR obf) !ETH]: *%NAME%*
+ItemDisplay[RARE !ID CL5 (!ktr !wrb !axf !ces !clw !btl !skr !9ar !9wb !9xf)]: %RED%+ %YELLOW%Claw %RED%+
+ItemDisplay[RARE !ID (ob5 OR oba OR obf) !ETH]:
 ItemDisplay[RARE !ID CL6 !ETH]:
 ItemDisplay[RARE !ID CL6 ETH]:
 ItemDisplay[RARE !ID ame !ETH]:
@@ -325,8 +320,8 @@ ItemDisplay[RARE !ID am7]:
 ItemDisplay[RARE !ID am2]:
 ItemDisplay[RARE !ID (am1 OR am6 OR amb)]:
 ItemDisplay[RARE !ID (am3 OR am8 OR amd) !ETH]:
-ItemDisplay[RARE !ID (am5 OR ama OR amf) !ETH]: %NAME%
-ItemDisplay[RARE !ID (am5 OR ama OR amf) ETH]: æ %NAME%
+ItemDisplay[RARE !ID (am5 OR ama OR amf) !ETH]:
+ItemDisplay[RARE !ID (am5 OR ama OR amf) ETH]:
 // Equip
 ItemDisplay[RARE !ID (msk OR xsk OR usk) !ETH]:
 ItemDisplay[RARE !ID (ghm OR xhm OR uhm) !ETH]:
