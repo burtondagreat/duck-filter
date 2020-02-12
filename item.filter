@@ -35,14 +35,14 @@ ItemDisplay[cx9]: %GOLD%+ %ORANGE%???????? %GOLD%+
 //║ Vendor Items ║
 //╚══════════════╝
 // +3/20 Gloves
-ItemDisplay[MAG ID EQ4 !ETH TABSK0>1 IAS=20]: %RED%¤¤¤¤¤¤¤¤¤¤¤ %PURPLE%Bowazon Gloves %RED%¤¤¤¤¤¤¤¤¤¤¤
-ItemDisplay[MAG ID EQ4 !ETH TABSK2>1 IAS=20]: %RED%¤¤¤¤¤¤¤¤¤¤¤ %PURPLE%Javazon Gloves %RED%¤¤¤¤¤¤¤¤¤¤¤
+ItemDisplay[MAG ID EQ4 !ETH TABSK0>2 IAS=20]: %RED%¤¤¤¤¤¤¤¤¤¤¤ %PURPLE%Bowazon Gloves %RED%¤¤¤¤¤¤¤¤¤¤¤
+ItemDisplay[MAG ID EQ4 !ETH TABSK2>2 IAS=20]: %RED%¤¤¤¤¤¤¤¤¤¤¤ %PURPLE%Javazon Gloves %RED%¤¤¤¤¤¤¤¤¤¤¤
 ItemDisplay[MAG ID EQ4 !ETH TABSK50>2 IAS=20]: %RED%¤¤¤¤¤¤¤¤¤¤¤ %PURPLE%Martial Gloves %RED%¤¤¤¤¤¤¤¤¤¤¤
 // +6 Skill
 ItemDisplay[MAG ID CL5 (TABSK48>2 AND SK251>2)]: %RED%¤¤¤¤¤¤¤¤¤ %PURPLE%Fire Blast Claw %RED%¤¤¤¤¤¤¤¤¤
 ItemDisplay[MAG ID CL5 (TABSK48>2 AND SK261>2)]: %RED%¤¤¤¤¤¤¤¤¤ %PURPLE%Charged Bolt Claw %RED%¤¤¤¤¤¤¤¤¤
 ItemDisplay[MAG ID CL5 (TABSK48>2 AND SK262>2)]: %RED%¤¤¤¤¤¤¤¤¤ %PURPLE%Wake of Fire Claw %RED%¤¤¤¤¤¤¤¤¤
-ItemDisplay[MAG ID CL5 (CLSK6>2 AND SK262>2)]: %RED%¤¤¤¤¤¤¤¤¤ %PURPLE%Wake of Fire Claw %RED%¤¤¤¤¤¤¤¤¤
+ItemDisplay[MAG ID CL5 (CLSK6>1 AND SK262>2)]: %RED%¤¤¤¤¤¤¤¤¤ %PURPLE%Wake of Fire Claw %RED%¤¤¤¤¤¤¤¤¤
 ItemDisplay[MAG ID CL5 (TABSK49>2 AND SK267>2)]: %RED%¤¤¤¤¤¤¤¤¤ %PURPLE%Fade Buff Claw %RED%¤¤¤¤¤¤¤¤¤
 ItemDisplay[MAG ID CL5 (TABSK49>2 AND SK273>2)]: %RED%¤¤¤¤¤¤¤¤¤ %PURPLE%Mind Blast Claw %RED%¤¤¤¤¤¤¤¤¤
 ItemDisplay[MAG ID CL5 (CLSK6>1 AND SK273>2)]: %RED%¤¤¤¤¤¤¤¤¤ %PURPLE%Mind Blast Claw %RED%¤¤¤¤¤¤¤¤¤
