@@ -284,7 +284,7 @@ ItemDisplay[MAG !ID ci3 !ETH]: %RED%÷ %BLUE%%NAME% %RED%÷
 //ItemDisplay[MAG !ID jew ED>1]: %RED%ED Jewel
 ItemDisplay[MAG !ID jew]: %BLACK%{%BLUE%%NAME%%BLACK%}
 ItemDisplay[MAG !ID CL5 (!ktr !wrb !axf !ces !clw !btl !skr !9ar !9wb !9xf)]: %RED%+ %BLUE%Claw %RED%+
-ItemDisplay[MAG !ID CL1]: %RED%÷ %NAME% %RED%÷
+ItemDisplay[MAG !ID CL1]: %RED%÷ %BLUE%%NAME% %RED%÷
 //ItemDisplay[MAG !ID CL2]: %NAME%
 // MAG Filter
 ItemDisplay[MAG !ID aq2 ILVL<64]: × %NAME% ×
