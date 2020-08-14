@@ -11,6 +11,8 @@ ItemDisplay[CLVL<25 GOLD<100]:
 ItemDisplay[cx5]: %RED%©©©© %PURPLE%OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOC %RED%©©©©
 ItemDisplay[cx8]: %DGREEN%° %GREEN%Enchanted Orb %DGREEN%°
 ItemDisplay[maz]: %PURPLE%÷÷÷÷÷÷÷÷÷÷÷÷÷ %RED%TRIAL %PURPLE%÷÷÷÷÷÷÷÷÷÷÷÷÷
+ItemDisplay[ma9]: %RED%¤¤¤¤ %PURPLE%WHAT THE FUCK IS THIS %RED%¤¤¤¤
+ItemDisplay[ma8]: %RED%¤¤¤¤ %PURPLE%WHAT THE FUCK IS THIS %RED%¤¤¤¤
 ItemDisplay[ma7]: %RED%¤¤¤¤ %PURPLE%WHAT THE FUCK IS THIS %RED%¤¤¤¤
 ItemDisplay[ma2]: %PURPLE%¤¤¤¤ %RED%TIER %PURPLE%4 %RED%MAP %PURPLE%unfortunate
 ItemDisplay[ma6]: %RED%³ %GOLD%Tier %RED%3 %GOLD%Map %RED%³
@@ -382,7 +384,7 @@ ItemDisplay[SET !ID uar]: %GREEN%¤¤¤¤¤ %PURPLE%Immortal King's Soul Cage %G
 ItemDisplay[SET !ID uth]: %GREEN%¤¤¤¤¤ %PURPLE%Tal Rasha's Guardianship %GREEN%¤¤¤¤¤
 ItemDisplay[SET !ID oba]: %GREEN%¤¤¤ %GREEN%Tal Rasha's Lidless Eye %GREEN%¤¤¤
 //ItemDisplay[SET !ID 7ws]: %GREEN%%NAME%
-ItemDisplay[SET !ID ci3]: %GREEN%¤¤¤ %PURPLE%M'avina's True Sight %GREEN%¤¤¤
+ItemDisplay[SET !ID ci3]: %GREEN%¤¤¤ %DGREEN%M'avina's True Sight %GREEN%¤¤¤
 ItemDisplay[SET !ID utc]: %GREEN%¤¤¤ Trang-Oul's Girth %GREEN%¤¤¤
 ItemDisplay[SET !ID ne9]: %GREEN%¤¤¤ Trang-Oul's Wing %GREEN%¤¤¤
 ItemDisplay[SET !ID xtb]: %GREEN%¤¤¤ %PURPLE%Aldur's Advance %GREEN%¤¤¤
@@ -692,6 +694,7 @@ ItemDisplay[NMAG EQ1]:
 //ItemDisplay[NMAG aar !ETH !SUP SOCK>1]: %NAME% %BLUE%(%SOCKETS%)
 //ItemDisplay[NMAG xrs !ETH !SUP SOCK>1]: %NAME% %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG xtp !ETH !SUP SOCK=3 DEF>240]: %RED%+ %GRAY%Enigma Base %RED%+ %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG xtp !ETH SUP SOCK=3 DEF>240]: %RED%+ %PURPLE%Enigma Base %RED%+ %BLUE%(%SOCKETS%)
 //ItemDisplay[NMAG rng !ETH !SUP SOCK=3]: %NAME% %BLUE%(%SOCKETS%)
 //ItemDisplay[NMAG uui !ETH !SUP SOCK=0]: %NAME%
 //ItemDisplay[NMAG uea !ETH !SUP SOCK=0]: %NAME%
@@ -699,17 +702,20 @@ ItemDisplay[NMAG xtp !ETH !SUP SOCK=3 DEF>240]: %RED%+ %GRAY%Enigma Base %RED%+ 
 //ItemDisplay[NMAG utu !ETH !SUP SOCK=0]: %NAME%
 //ItemDisplay[NMAG urs !ETH !SUP SOCK=0]: %NAME%
 ItemDisplay[NMAG utp !ETH !SUP SOCK=0 DEF>500]: %RED%+ %GRAY%%NAME% %RED%+
+ItemDisplay[NMAG utp !ETH SUP SOCK>1 DEF>500]: %RED%+ %RED%%NAME% %RED%+
 //ItemDisplay[NMAG uhn !ETH !SUP SOCK=0]: %NAME%
 //ItemDisplay[NMAG upl !ETH !SUP SOCK=0]: %NAME%
 //ItemDisplay[NMAG uld !ETH !SUP SOCK=0]: %NAME%
 //ItemDisplay[NMAG uth !ETH !SUP SOCK=0]: %NAME%
 //ItemDisplay[NMAG uar !ETH !SUP SOCK=0]: %NAME%
 ItemDisplay[NMAG uui !ETH !SUP SOCK>1 DEF>400]: %RED%+ %GRAY%%NAME% %RED%+ %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG uui !ETH SUP SOCK>1 DEF>400]: %RED%+ %RED%%NAME% %RED%+ %BLUE%(%SOCKETS%)
 //ItemDisplay[NMAG uea !ETH !SUP SOCK>1]: %NAME% %BLUE%(%SOCKETS%)
 //ItemDisplay[NMAG ula !ETH !SUP SOCK>1]: %NAME% %BLUE%(%SOCKETS%)
 //ItemDisplay[NMAG utu !ETH !SUP SOCK>1]: %NAME% %BLUE%(%SOCKETS%)
 //ItemDisplay[NMAG urs !ETH !SUP SOCK>1]: %NAME% %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG utp !ETH !SUP SOCK>1 DEF>470]: %RED%+ %GRAY%%NAME% %RED%+ %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG utp !ETH SUP SOCK>1 DEF>470]: %RED%+ %RED%%NAME% %RED%+ %BLUE%(%SOCKETS%)
 //ItemDisplay[NMAG uhn !ETH !SUP SOCK>1]: %NAME% %BLUE%(%SOCKETS%)
 //ItemDisplay[NMAG upl !ETH !SUP SOCK>1]: %NAME% %BLUE%(%SOCKETS%)
 //ItemDisplay[NMAG uld !ETH !SUP SOCK>1]: %NAME% %BLUE%(%SOCKETS%)
@@ -754,9 +760,11 @@ ItemDisplay[NMAG EQ2]:
 // EQ3
 ItemDisplay[NMAG uit !ETH !SUP SOCK=4]: %RED%+ %GRAY%%NAME% %RED%+ %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG uit !ETH !SUP SOCK=3]: %RED%+ %GRAY%%NAME% %RED%+ %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG uit !ETH SUP SOCK=4]: %RED%+ %RED%%NAME% %RED%+ %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG uit !ETH SUP SOCK=3]: %RED%+ %RED%%NAME% %RED%+ %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG uit !ETH !SUP SOCK=0]: %RED%+ %GRAY%%NAME% %RED%+
 //ItemDisplay[NMAG kit !ETH !SUP SOCK=3 DEF=18]: %NAME% %BLUE%(%SOCKETS%)
-ItemDisplay[NMAG bsh !ETH !SUP SOCK=2 ILVL<71]: %ORANGE%Rhyme Base %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG bsh !ETH SOCK=2 ILVL<71]: %ORANGE%Rhyme Base %BLUE%(%SOCKETS%)
 //ItemDisplay[NMAG gts !ETH !SUP SOCK=3 DEF=35]: %NAME% %BLUE%(%SOCKETS%)
 //ItemDisplay[NMAG xit !ETH !SUP SOCK=3 DEF=67]: %NAME% %BLUE%(%SOCKETS%)
 //ItemDisplay[NMAG xsh !ETH !SUP SOCK=2 DEF=150]: %NAME% %BLUE%(%SOCKETS%)
@@ -840,6 +848,8 @@ ItemDisplay[NMAG WP4]:
 // WP7
 ItemDisplay[NMAG 7p7 ETH SOCK=0 ED>14]: %PURPLE%++++++++++ %ORANGE%WAR PIKE %PURPLE%++++++++++ %BLUE%æ
 ItemDisplay[NMAG 7p7 ETH SOCK=6 ED>14]: %PURPLE%++++++++++ %ORANGE%WAR PIKE %PURPLE%++++++++++ %BLUE%æ(%SOCKETS%)
+ItemDisplay[NMAG 7p7 SOCK=5 !ETH]: %PURPLE%+++++ %ORANGE%War Pike %PURPLE%+++++ %BLUE% OBEDIANCE BASE (%SOCKETS%)
+ItemDisplay[NMAG 7p7 SOCK=0 !ETH]: %ORANGE%OBEDIANCE???
 //ItemDisplay[NMAG 7p7 ETH !SOCK=2 ED>14]: %PURPLE%+++ %ORANGE%WAR PIKE %PURPLE%+++ %BLUE%æ(%SOCKETS%)
 ItemDisplay[NMAG 7p7 ETH SOCK=0 (ED>4 AND ED<15)]: %PURPLE%+++++ %ORANGE%War Pike %PURPLE%+++++ %BLUE%æ
 ItemDisplay[NMAG 7p7 ETH SOCK=6 (ED>4 AND ED<15)]: %PURPLE%+++++ %ORANGE%War Pike %PURPLE%+++++ %BLUE%æ(%SOCKETS%)
@@ -1041,7 +1051,7 @@ ItemDisplay[UNI !ID uhg !ETH]: %GOLD%¤¤¤ %PURPLE%Steelrend %GOLD%¤¤¤
 //ItemDisplay[UNI !ID xtg !ETH]: %GOLD%¤¤¤ %RED%Lava Gout %GOLD%¤¤¤
 ItemDisplay[UNI !ID umg !ETH]: %GOLD%¤ %RED%Soul Drainer %GOLD%¤
 ItemDisplay[UNI !ID hgl !ETH]: %GOLD%¤ %RED%Frostburn %GOLD%¤
-ItemDisplay[UNI !ID tgl !ETH]: %GOLD%¤ %RED%Magefist %GOLD%¤
+ItemDisplay[UNI !ID tgl !ETH]: %GOLD%¤¤¤ %PURPLE%Magefist %GOLD%¤¤¤
 ItemDisplay[UNI !ID vgl !ETH]: %GOLD%¤ %RED%Bloodfist %GOLD%¤
 //ItemDisplay[UNI !ID lgl !ETH]: %GOLD%¤ The Hand of Broc ¤
 ItemDisplay[UNI !ID mgl !ETH]: %GOLD%¤ Chance Guards ¤
@@ -1117,7 +1127,7 @@ ItemDisplay[UNI !ID 9mp !ETH]: %GOLD%¤ %WHITE%Pompeii's Wrath %GOLD%¤
 //ItemDisplay[UNI !ID wax !ETH]: %GOLD%¤ %WHITE%Rakescar %GOLD%¤
 //ItemDisplay[UNI !ID gix !ETH]: %GOLD%¤ %WHITE%Humongous %GOLD%¤
 //ItemDisplay[UNI !ID 7ga !ETH]: %GOLD%¤ %WHITE%Messerschmidt's Reaver %GOLD%¤
-ItemDisplay[UNI !ID 72a ETH]: %GOLD%¤¤¤¤¤¤¤¤¤¤ %PURPLE%Æ RUNE MASTER %GOLD%¤¤¤¤¤¤¤¤¤¤
+//ItemDisplay[UNI !ID 72a ETH]: %GOLD%¤¤¤¤¤¤¤¤¤¤ %PURPLE%Æ RUNE MASTER %GOLD%¤¤¤¤¤¤¤¤¤¤
 //ItemDisplay[UNI !ID 7wa ETH]: %GOLD%¤ %RED%æ Death Cleaver %GOLD%¤ :(
 //ItemDisplay[UNI !ID 7gi ETH]: %GOLD%¤ %RED%æ Executioner's Justice %GOLD%¤
 //ItemDisplay[UNI !ID 9ax ETH]: %GOLD%¤ %RED%æ Butcher's Pupil %GOLD%¤
