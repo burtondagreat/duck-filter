@@ -11,13 +11,17 @@ ItemDisplay[CLVL<25 GOLD<100]:
 ItemDisplay[cx5]: %RED%©©©© %PURPLE%OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOC %RED%©©©©
 ItemDisplay[cx8]: %DGREEN%° %GREEN%Enchanted Orb %DGREEN%°
 ItemDisplay[maz]: %PURPLE%÷÷÷÷÷÷÷÷÷÷÷÷÷ %RED%TRIAL %PURPLE%÷÷÷÷÷÷÷÷÷÷÷÷÷
-ItemDisplay[ma9]: %RED%¤¤¤¤ %PURPLE%WHAT THE FUCK IS THIS %RED%¤¤¤¤
-ItemDisplay[ma8]: %RED%¤¤¤¤ %PURPLE%WHAT THE FUCK IS THIS %RED%¤¤¤¤
-ItemDisplay[ma7]: %RED%¤¤¤¤ %PURPLE%WHAT THE FUCK IS THIS %RED%¤¤¤¤
-ItemDisplay[ma2]: %PURPLE%¤¤¤¤ %RED%TIER %PURPLE%4 %RED%MAP %PURPLE%unfortunate
-ItemDisplay[ma6]: %RED%³ %GOLD%Tier %RED%3 %GOLD%Map %RED%³
-ItemDisplay[ma5]: %WHITE%² %YELLOW%Tier %WHITE%2 %YELLOW%Map %WHITE%²
-ItemDisplay[ma4]: %GREEN%¹ %DGREEN%Tier %GREEN%1 %DGREEN%Map %GREEN%¹
+ItemDisplay[ma1]: %DGREEN%Icy Cavern Map %PURPLE%brrrr
+ItemDisplay[ma2]: %RED%Forgotten Desert Map %PURPLE%unfortunate
+ItemDisplay[ma3]: %RED%¤¤¤¤ %PURPLE%WHAT THE FUCK IS THIS %RED%¤¤¤¤
+ItemDisplay[ma4]: %ORANGE%Desecrated Temple Map
+ItemDisplay[ma5]: %DGREEN%Frigid Plateau Map
+ItemDisplay[ma6]: %RED%Ruined Citadel Map
+ItemDisplay[ma7]: %RED%Burnt Forest Map %PURPLE%tssssss
+ItemDisplay[ma8]: %YELLOW%Musty Crypt Map %PURPLE%needs shower
+ItemDisplay[ma9]: %YELLOW%Dim Cellar Map %PURPLE%TURN ON THE LIGHTS
+ItemDisplay[ma10]: %RED%¤¤¤¤ %PURPLE%WHAT THE FUCK IS THIS %RED%¤¤¤¤
+ItemDisplay[ma11]: %RED%¤¤¤¤ %PURPLE%WHAT THE FUCK IS THIS %RED%¤¤¤¤
 ItemDisplay[fed]: %GREEN%¤¤¤¤¤¤¤¤¤¤ SAND ¤¤¤¤¤¤¤¤¤¤
 ItemDisplay[tes]: %BLUE%¤¤¤ SAND ¤¤¤
 ItemDisplay[ceh]: %YELLOW%¤¤¤ SAND ¤¤¤
