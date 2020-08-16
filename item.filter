@@ -11,17 +11,17 @@ ItemDisplay[CLVL<25 GOLD<100]:
 ItemDisplay[cx5]: %RED%©©©© %PURPLE%OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOC %RED%©©©©
 ItemDisplay[cx8]: %DGREEN%° %GREEN%Enchanted Orb %DGREEN%°
 ItemDisplay[maz]: %PURPLE%÷÷÷÷÷÷÷÷÷÷÷÷÷ %RED%TRIAL %PURPLE%÷÷÷÷÷÷÷÷÷÷÷÷÷
-ItemDisplay[ma1]: %DGREEN%Icy Cavern Map %PURPLE%brrrr
-ItemDisplay[ma2]: %RED%Forgotten Desert Map %PURPLE%unfortunate
-ItemDisplay[ma3]: %RED%¤¤¤¤ %PURPLE%WHAT THE FUCK IS THIS %RED%¤¤¤¤
-ItemDisplay[ma4]: %ORANGE%Desecrated Temple Map
-ItemDisplay[ma5]: %DGREEN%Frigid Plateau Map
-ItemDisplay[ma6]: %RED%Ruined Citadel Map
-ItemDisplay[ma7]: %RED%Burnt Forest Map %PURPLE%tssssss
-ItemDisplay[ma8]: %YELLOW%Musty Crypt Map %PURPLE%needs shower
-ItemDisplay[ma9]: %YELLOW%Dim Cellar Map %PURPLE%TURN ON THE LIGHTS
-ItemDisplay[ma10]: %RED%¤¤¤¤ %PURPLE%WHAT THE FUCK IS THIS %RED%¤¤¤¤
-ItemDisplay[ma11]: %RED%¤¤¤¤ %PURPLE%WHAT THE FUCK IS THIS %RED%¤¤¤¤
+ItemDisplay[ma1]: %DGREEN%%NAME%
+ItemDisplay[ma2]: %RED%%NAME%
+ItemDisplay[ma3]: %RED%%NAME%
+ItemDisplay[ma4]: %ORANGE%%NAME%
+ItemDisplay[ma5]: %DGREEN%%NAME%
+ItemDisplay[ma6]: %RED%%NAME%
+ItemDisplay[ma7]: %RED%%NAME%
+ItemDisplay[ma8]: %YELLOW%%NAME%
+ItemDisplay[ma9]: %YELLOW%%NAME%
+ItemDisplay[ma10]: %RED%%NAME%
+ItemDisplay[ma11]: %RED%%NAME%
 ItemDisplay[fed]: %GREEN%¤¤¤¤¤¤¤¤¤¤ SAND ¤¤¤¤¤¤¤¤¤¤
 ItemDisplay[tes]: %BLUE%¤¤¤ SAND ¤¤¤
 ItemDisplay[ceh]: %YELLOW%¤¤¤ SAND ¤¤¤
@@ -550,7 +550,7 @@ ItemDisplay[NMAG CL3 SOCK=0 ILVL>63]:
 // CL4
 ItemDisplay[NMAG WP12 !wnd !ywn !9wn (SK67=3) SOCK=0]: %WHITE%+3 %PURPLE%Teeth Wand
 //ItemDisplay[NMAG WP12 !wnd !ywn !9wn SK83=3 SOCK=0]: %WHITE%+3 %ORANGE%Desecrate Wand
-ItemDisplay[NMAG WP12 !wnd !ywn !9wn (SK84=3) SOCK=0]: %WHITE%+3 %PURPLE%Bone Spear Wand
+ItemDisplay[NMAG WP12 !wnd !ywn !9wn (SK84>2) SOCK=0]: %WHITE%+3 %PURPLE%Bone Spear Wand
 ItemDisplay[NMAG WP12 !wnd !ywn !9wn (SK92>2) SOCK=0]: %WHITE%+3 %ORANGE%Poison Nova Wand
 //ItemDisplay[NMAG WP12 !wnd !ywn !9wn SK68=3 SOCK=0]: %WHITE%+3 %ORANGE%Bone Armor Wand
 //ItemDisplay[NMAG WP12 !wnd !ywn !9wn SK73=3 SOCK=0]: %WHITE%+3 %ORANGE%Deadly Poison Wand
@@ -558,7 +558,7 @@ ItemDisplay[NMAG WP12 !wnd !ywn !9wn (SK92>2) SOCK=0]: %WHITE%+3 %ORANGE%Poison 
 //ItemDisplay[NMAG WP12 !wnd !ywn !9wn SK94=3 SOCK=0]: %WHITE%+3 %ORANGE%Fire Golem Wand
 ItemDisplay[NMAG WP12 !wnd !ywn !9wn (SK67=3) SOCK=2]: %WHITE%+3 %ORANGE%Teeth wand %BLUE%(%SOCKETS%)
 //ItemDisplay[NMAG WP12 !wnd !ywn !9wn SK83=3 SOCK=2]: %WHITE%+3 %ORANGE%Desecrate Wand %BLUE%(%SOCKETS%)
-ItemDisplay[NMAG WP12 !wnd !ywn !9wn (SK84=3) SOCK=2]: %WHITE%+3 %ORANGE%Bone Spear Wand %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG WP12 !wnd !ywn !9wn (SK84>2) SOCK>1]: %WHITE%+3 %ORANGE%Bone Spear Wand %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG WP12 !wnd !ywn !9wn (SK92>2) SOCK>1]: %WHITE%+3 %ORANGE%Poison Nova Wand %BLUE%(%SOCKETS%)
 //ItemDisplay[NMAG WP12 !wnd !ywn !9wn SK68=3 SOCK=2]: %WHITE%+3 %ORANGE%Bone Armor Wand %BLUE%(%SOCKETS%)
 //ItemDisplay[NMAG WP12 !wnd !ywn !9wn SK73=3 SOCK=2]: %WHITE%+3 %ORANGE%Deadly Poison Wand %BLUE%(%SOCKETS%)
