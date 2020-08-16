@@ -11,17 +11,17 @@ ItemDisplay[CLVL<25 GOLD<100]:
 ItemDisplay[cx5]: %RED%©©©© %PURPLE%OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOC %RED%©©©©
 ItemDisplay[cx8]: %DGREEN%° %GREEN%Enchanted Orb %DGREEN%°
 ItemDisplay[maz]: %PURPLE%÷÷÷÷÷÷÷÷÷÷÷÷÷ %RED%TRIAL %PURPLE%÷÷÷÷÷÷÷÷÷÷÷÷÷
-ItemDisplay[ma1]: %DGREEN%%NAME%
-ItemDisplay[ma2]: %RED%%NAME%
-ItemDisplay[ma3]: %RED%%NAME%
-ItemDisplay[ma4]: %ORANGE%%NAME%
-ItemDisplay[ma5]: %DGREEN%%NAME%
-ItemDisplay[ma6]: %RED%%NAME%
-ItemDisplay[ma7]: %RED%%NAME%
-ItemDisplay[ma8]: %YELLOW%%NAME%
-ItemDisplay[ma9]: %YELLOW%%NAME%
-ItemDisplay[ma10]: %RED%%NAME%
-ItemDisplay[ma11]: %RED%%NAME%
+ItemDisplay[ma1]: %PURPLE%¤¤¤¤ %DGREEN%%NAME%
+ItemDisplay[ma2]: %PURPLE%¤¤¤¤ %RED%%NAME%
+ItemDisplay[ma3]: %PURPLE%¤¤¤¤ %RED%%NAME%
+ItemDisplay[ma4]: %PURPLE%¤¤¤¤ %ORANGE%%NAME%
+ItemDisplay[ma5]: %PURPLE%¤¤¤¤ %DGREEN%%NAME%
+ItemDisplay[ma6]: %PURPLE%¤¤¤¤ %RED%%NAME%
+ItemDisplay[ma7]: %PURPLE%¤¤¤¤ %RED%%NAME%
+ItemDisplay[ma8]: %PURPLE%¤¤¤¤ %YELLOW%%NAME%
+ItemDisplay[ma9]: %PURPLE%¤¤¤¤ %YELLOW%%NAME%
+ItemDisplay[ma10]: %PURPLE%¤¤¤¤ %RED%%NAME%
+ItemDisplay[ma11]: %PURPLE%¤¤¤¤ %RED%%NAME%
 ItemDisplay[fed]: %GREEN%¤¤¤¤¤¤¤¤¤¤ SAND ¤¤¤¤¤¤¤¤¤¤
 ItemDisplay[tes]: %BLUE%¤¤¤ SAND ¤¤¤
 ItemDisplay[ceh]: %YELLOW%¤¤¤ SAND ¤¤¤
@@ -188,7 +188,7 @@ ItemDisplay[r29]: %GREEN%HYPE! %BLACK%(: %PURPLE%¤¤¤¤¤¤¤¤¤¤¤ %RED%%RU
 ItemDisplay[r30]: %GREEN%HYPE! %BLACK%(: %PURPLE%¤¤¤¤¤¤¤¤¤¤¤¤ %RED%B%ORANGE%E%YELLOW%R %PURPLE%¤¤¤¤¤¤¤¤¤¤¤¤ %BLACK%:) %GREEN%HYPE!
 ItemDisplay[r31]: %GREEN%HYPE! %BLACK%(: %PURPLE%¤¤¤¤¤¤¤¤¤¤¤¤ %RED%J%ORANGE%A %YELLOW%R%RED%U%ORANGE%L%YELLOW%E %PURPLE%¤¤¤¤¤¤¤¤¤¤¤¤ %BLACK%:) %GREEN%HYPE!
 ItemDisplay[r32]: %BLACK%SHAME ): %PURPLE%¤¤¤¤¤¤¤¤¤¤ %RED%%RUNENAME% %PURPLE%¤¤¤¤¤¤¤¤¤¤ %BLACK%:( SHAME
-ItemDisplay[r33]: %GREEN%HYPE! %BLACK%(: %PURPLE%¤¤¤¤¤¤¤¤¤¤¤ %RED%%RUNENAME% %PURPLE%¤¤¤¤¤¤¤¤¤¤¤ %BLACK%:) %GREEN%HYPE!
+ItemDisplay[r33]: %GREEN%HYPE! %BLACK%(: %PURPLE%¤¤¤¤¤¤¤¤¤¤¤ %RED%ZAH!~ %PURPLE%¤¤¤¤¤¤¤¤¤¤¤ %BLACK%:) %GREEN%HYPE!
 //╔══════════╗
 //║ CRAFTING ║
 //╚══════════╝
@@ -838,6 +838,7 @@ ItemDisplay[NMAG 7cr SOCK=6 !SUP]: %RED%+ %GRAY%%NAME% %RED%+ %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG 72h ETH SOCK=0 ED=15]: %PURPLE%+++++ %ORANGE%LEGEND SWORD %PURPLE%+++++ %BLUE%æ
 ItemDisplay[NMAG 72h ETH SOCK=3 ED=15]: %PURPLE%+++++ %ORANGE%LEGEND SWORD %PURPLE%+++++ %BLUE%æ(%SOCKETS%)
 ItemDisplay[NMAG 72h ETH SOCK=0 (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Legend Sword %RED%+++ %BLUE%æ
+ItemDisplay[NMAG 72h ETH SOCK=0]: %RED%+++ %ORANGE%Legend Sword %RED%+++ %BLUE%æ
 ItemDisplay[NMAG 72h ETH SOCK=3 (ED>4 AND ED<15)]: %RED%+++ %ORANGE%Legend Sword %RED%+++ %BLUE%æ(%SOCKETS%)
 ItemDisplay[NMAG 72h ETH SOCK=3 !SUP]: %RED%+ %GRAY%%NAME% %RED%+ %BLUE%æ(%SOCKETS%)
 ItemDisplay[NMAG WP3 SOCK>1 !ETH ILVL<64]: %NAME% %BLUE%(%SOCKETS%)
