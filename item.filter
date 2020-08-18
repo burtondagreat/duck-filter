@@ -11,17 +11,17 @@ ItemDisplay[CLVL<25 GOLD<100]:
 ItemDisplay[cx5]: %RED%©©©© %PURPLE%OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOC %RED%©©©©
 ItemDisplay[cx8]: %DGREEN%° %GREEN%Enchanted Orb %DGREEN%°
 ItemDisplay[maz]: %PURPLE%÷÷÷÷÷÷÷÷÷÷÷÷÷ %RED%TRIAL %PURPLE%÷÷÷÷÷÷÷÷÷÷÷÷÷
-ItemDisplay[ma1]: %PURPLE%¤¤¤¤ %DGREEN%%NAME%
-ItemDisplay[ma2]: %PURPLE%¤¤¤¤ %RED%%NAME%
-ItemDisplay[ma3]: %PURPLE%¤¤¤¤ %RED%%NAME%
-ItemDisplay[ma4]: %PURPLE%¤¤¤¤ %ORANGE%%NAME%
-ItemDisplay[ma5]: %PURPLE%¤¤¤¤ %DGREEN%%NAME%
-ItemDisplay[ma6]: %PURPLE%¤¤¤¤ %RED%%NAME%
-ItemDisplay[ma7]: %PURPLE%¤¤¤¤ %RED%%NAME%
-ItemDisplay[ma8]: %PURPLE%¤¤¤¤ %YELLOW%%NAME%
-ItemDisplay[ma9]: %PURPLE%¤¤¤¤ %YELLOW%%NAME%
-ItemDisplay[ma10]: %PURPLE%¤¤¤¤ %RED%%NAME%
-ItemDisplay[ma11]: %PURPLE%¤¤¤¤ %RED%%NAME%
+ItemDisplay[ma1]: %NAME%
+ItemDisplay[ma2]: %NAME%
+ItemDisplay[ma3]: %NAME%
+ItemDisplay[ma4]: %NAME%
+ItemDisplay[ma5]: %NAME%
+ItemDisplay[ma6]: %NAME%
+ItemDisplay[ma7]: %NAME%
+ItemDisplay[ma8]: %NAME%
+ItemDisplay[ma9]: %NAME%
+ItemDisplay[ma10]: %NAME%
+ItemDisplay[ma11]: %NAME%
 ItemDisplay[fed]: %GREEN%¤¤¤¤¤¤¤¤¤¤ SAND ¤¤¤¤¤¤¤¤¤¤
 ItemDisplay[tes]: %BLUE%¤¤¤ SAND ¤¤¤
 ItemDisplay[ceh]: %YELLOW%¤¤¤ SAND ¤¤¤
@@ -854,7 +854,7 @@ ItemDisplay[NMAG WP4]:
 ItemDisplay[NMAG 7p7 ETH SOCK=0 ED>14]: %PURPLE%++++++++++ %ORANGE%WAR PIKE %PURPLE%++++++++++ %BLUE%æ
 ItemDisplay[NMAG 7p7 ETH SOCK=6 ED>14]: %PURPLE%++++++++++ %ORANGE%WAR PIKE %PURPLE%++++++++++ %BLUE%æ(%SOCKETS%)
 ItemDisplay[NMAG 7p7 SOCK=5 !ETH]: %PURPLE%+++++ %ORANGE%War Pike %PURPLE%+++++ %BLUE% OBEDIANCE BASE (%SOCKETS%)
-ItemDisplay[NMAG 7p7 SOCK=0 !ETH]: %ORANGE%OBEDIANCE???
+//ItemDisplay[NMAG 7p7 SOCK=0 !ETH]: %ORANGE%OBEDIANCE???
 //ItemDisplay[NMAG 7p7 ETH !SOCK=2 ED>14]: %PURPLE%+++ %ORANGE%WAR PIKE %PURPLE%+++ %BLUE%æ(%SOCKETS%)
 ItemDisplay[NMAG 7p7 ETH SOCK=0 (ED>4 AND ED<15)]: %PURPLE%+++++ %ORANGE%War Pike %PURPLE%+++++ %BLUE%æ
 ItemDisplay[NMAG 7p7 ETH SOCK=6 (ED>4 AND ED<15)]: %PURPLE%+++++ %ORANGE%War Pike %PURPLE%+++++ %BLUE%æ(%SOCKETS%)
@@ -862,6 +862,12 @@ ItemDisplay[NMAG 7p7 ETH SOCK=6 (ED>4 AND ED<15)]: %PURPLE%+++++ %ORANGE%War Pik
 ItemDisplay[NMAG 7p7 ETH SOCK=0 !SUP]: %RED%+ %ORANGE%%NAME% %RED%+ %BLUE%æ
 ItemDisplay[NMAG 7p7 ETH SOCK=6 !SUP]: %RED%+ %ORANGE%%NAME% %RED%+ %BLUE%æ(%SOCKETS%)
 ////ItemDisplay[NMAG 7p7 ETH !SOCK=2 !SUP]: %NAME% %BLUE%æ(%SOCKETS%)
+ItemDisplay[NMAG 7br SOCK=0 ETH !SUP]: %ORANGE%BOYCATCHER %PURPLE%GREETINGS FROM GERMANY %BLUE%æ
+ItemDisplay[NMAG 7br SOCK=4 ETH]: %ORANGE%BOYCATCHER %PURPLE%GREETINGS FROM GERMANY %BLUE%æ(%SOCKETS%)
+ItemDisplay[NMAG 7br SOCK=4 ED>14]: %PURPLE%++++++++++ %ORANGE%BOYCATCHER %PURPLE%++++++++++ %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG 7br SOCK=4 (ED>4 AND ED<15)]: %PURPLE%+++++ %ORANGE%BOYCATCHER %PURPLE%+++++ %BLUE%(%SOCKETS%)
+//ItemDisplay[NMAG 7br SOCK=0 !SUP]: %RED%+ %ORANGE%%NAME% %RED%+
+ItemDisplay[NMAG 7br SOCK=4 !SUP]: %RED%+++ %ORANGE%%NAME% %RED%+++ %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG WP7 SOCK>1 !ETH ILVL<64]: %NAME% %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG WP7 SOCK>1 ETH ILVL<64]: %NAME% %BLUE%æ(%SOCKETS%)
 ItemDisplay[NMAG WP7 SOCK>1 ILVL>63]:
@@ -1324,10 +1330,10 @@ ItemDisplay[UNI !ID pac !ETH]: %GOLD%¤¤¤¤¤¤ %PURPLE%Alma Negra %GOLD%¤¤�
 //ItemDisplay[UNI !ID pac ETH]: %GOLD%¤¤¤ %RED%æ Alma Negra %GOLD%¤¤¤
 //ItemDisplay[UNI !ID pae ETH]: %GOLD%¤ %RED%æ Dragonscale %GOLD%¤
 // CL4
-ItemDisplay[UNI !ID nea !ETH]: %GOLD%¤¤¤¤¤¤¤¤¤¤ %PURPLE%HOMONCULUS %GOLD%¤¤¤¤¤¤¤¤¤¤
+ItemDisplay[UNI !ID nea !ETH]: %GOLD%¤¤¤¤¤¤¤¤¤¤ %PURPLE%HOMUNCULUS %GOLD%¤¤¤¤¤¤¤¤¤¤
 ItemDisplay[UNI !ID nef !ETH]: %GOLD%¤¤¤ %RED%Darkforce Spawn %GOLD%¤¤¤
 //ItemDisplay[UNI !ID nee !ETH]: %GOLD%¤¤¤ %RED%Boneflame %GOLD%¤¤¤
-ItemDisplay[UNI !ID nea ETH]: %GOLD%¤¤¤¤¤¤ %RED%æ Homonculus %GOLD%¤¤¤¤¤¤ :(
+ItemDisplay[UNI !ID nea ETH]: %GOLD%¤¤¤¤¤¤ %RED%æ Homunculus %GOLD%¤¤¤¤¤¤ :(
 //ItemDisplay[UNI !ID nef ETH]: %GOLD%¤ %RED%æ Darkforce Spawn %GOLD%¤
 //ItemDisplay[UNI !ID nee ETH]: %GOLD%¤ %RED%æ Boneflame %GOLD%¤
 // CL5
