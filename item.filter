@@ -128,9 +128,9 @@ ItemDisplay[glr]: %RED%«%GRAY%gem
 ItemDisplay[glb]: %BLUE%«%GRAY%gem
 ItemDisplay[gly]: %YELLOW%«%GRAY%gem
 ItemDisplay[skl]: %BLACK%«%GRAY%sku
-ItemDisplay[CLVL>39 (gsv OR gsw OR gsg OR gsr OR gsb OR gsy OR sku)]:
-ItemDisplay[CLVL>29 (gfv OR gfw OR gfg OR gfr OR gfb OR gfy OR skf)]:
-ItemDisplay[CLVL>19 (gcv OR gcw OR gcg OR gcr OR gcb OR gcy OR skc)]:
+ItemDisplay[CLVL>84 (gsv OR gsw OR gsg OR gsr OR gsb OR gsy OR sku)]:
+ItemDisplay[CLVL>84 (gfv OR gfw OR gfg OR gfr OR gfb OR gfy OR skf)]:
+ItemDisplay[CLVL>84 (gcv OR gcw OR gcg OR gcr OR gcb OR gcy OR skc)]:
 ItemDisplay[CLVL<40 gsv]: %PURPLE%»%GRAY%gem
 ItemDisplay[CLVL<40 gsw]: %WHITE%»%GRAY%gem
 ItemDisplay[CLVL<40 gsg]: %GREEN%»%GRAY%gem
