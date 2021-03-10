@@ -83,7 +83,7 @@ ItemDisplay[box]: %ORANGE%Quite a treasure!
 ItemDisplay[hp5]: %BLACK%_%RED%@%BLACK%_
 ItemDisplay[mp5]: %BLACK%_%BLUE%@%BLACK%_
 ItemDisplay[rvs]: %BLACK%_%PURPLE%*%BLACK%_
-ItemDisplay[rvl]: %BLACK%_%PURPLE%@%BLACK%_
+ItemDisplay[rvl]: %SOUND-2899%%BLACK%_%PURPLE%@%BLACK%_
 ItemDisplay[CLVL>64 hp4]:
 ItemDisplay[CLVL>44 hp3]:
 ItemDisplay[CLVL>24 hp2]:
@@ -287,8 +287,8 @@ ItemDisplay[MAG !ID rin ILVL<65]: %NAME% %GRAY%%ILVL%
 //ItemDisplay[MAG !ID EQ2 EXC !ETH]: %NAME% %PRICE%
 //ItemDisplay[MAG !ID EQ7 !ETH]: %NAME% %PRICE%
 ItemDisplay[MAG !ID EQ4 !ETH]: %NAME% %RED%probably sucks
-ItemDisplay[MAG !ID cm1]: %BLACK%* %ORANGE%charm %BLACK%*%GRAY%%ILVL%%NOTIFY-ITEM%
-ItemDisplay[MAG !ID cm3]: %BLACK%* %ORANGE%CHARM %BLACK%*%GRAY%%ILVL%%NOTIFY-ITEM%
+ItemDisplay[MAG !ID cm1]: %SOUND-1349%%BLACK%* %ORANGE%charm %BLACK%*%GRAY%%ILVL%%NOTIFY-ITEM%
+ItemDisplay[MAG !ID cm3]: %SOUND-2916%%BLACK%* %ORANGE%CHARM %BLACK%*%GRAY%%ILVL%%NOTIFY-ITEM%
 ItemDisplay[MAG !ID cm2 ILVL<70]: %BLACK%< %BLUE%large %BLACK%>%GRAY%%ILVL%
 ItemDisplay[MAG !ID ci0 !ETH]: %RED%+ %BLUE%%NAME% %RED%+
 ItemDisplay[MAG !ID ci1 !ETH]: %RED%+ %BLUE%%NAME% %RED%+
