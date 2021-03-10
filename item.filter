@@ -128,30 +128,27 @@ ItemDisplay[glr]: %RED%<%GRAY%gem
 ItemDisplay[glb]: %BLUE%<%GRAY%gem
 ItemDisplay[gly]: %YELLOW%<%GRAY%gem
 ItemDisplay[skl]: %BLACK%<%GRAY%sku
-ItemDisplay[CLVL>84 (gsv OR gsw OR gsg OR gsr OR gsb OR gsy OR sku)]:
-ItemDisplay[CLVL>84 (gfv OR gfw OR gfg OR gfr OR gfb OR gfy OR skf)]:
-ItemDisplay[CLVL>84 (gcv OR gcw OR gcg OR gcr OR gcb OR gcy OR skc)]:
-ItemDisplay[CLVL<40 gsv]: %PURPLE%>%GRAY%gem
-ItemDisplay[CLVL<40 gsw]: %WHITE%>%GRAY%gem
-ItemDisplay[CLVL<40 gsg]: %GREEN%>%GRAY%gem
-ItemDisplay[CLVL<40 gsr]: %RED%>%GRAY%gem
-ItemDisplay[CLVL<40 gsb]: %BLUE%>%GRAY%gem
-ItemDisplay[CLVL<40 gsy]: %YELLOW%>%GRAY%gem
-ItemDisplay[CLVL<40 sku]: %BLACK%>%GRAY%sku
-ItemDisplay[CLVL<30 gfv]: %PURPLE%>%GRAY%gem
-ItemDisplay[CLVL<30 gfw]: %WHITE%>%GRAY%gem
-ItemDisplay[CLVL<30 gfg]: %GREEN%>%GRAY%gem
-ItemDisplay[CLVL<30 gfr]: %RED%>%GRAY%gem
-ItemDisplay[CLVL<30 gfb]: %BLUE%>%GRAY%gem
-ItemDisplay[CLVL<30 gfy]: %YELLOW%>%GRAY%gem
-ItemDisplay[CLVL<30 skf]: %BLACK%>%GRAY%sku
-ItemDisplay[CLVL<20 gcv]: %PURPLE%>%GRAY%gem
-ItemDisplay[CLVL<20 gcw]: %WHITE%>%GRAY%gem
-ItemDisplay[CLVL<20 gcg]: %GREEN%>%GRAY%gem
-ItemDisplay[CLVL<20 gcr]: %RED%>%GRAY%gem
-ItemDisplay[CLVL<20 gcb]: %BLUE%>%GRAY%gem
-ItemDisplay[CLVL<20 gcy]: %YELLOW%>%GRAY%gem
-ItemDisplay[CLVL<20 skc]: %BLACK%>%GRAY%sku
+ItemDisplay[gsv]: %PURPLE%>%GRAY%ame
+ItemDisplay[gsw]: %WHITE%>%GRAY%diam
+ItemDisplay[gsg]: %GREEN%>%GRAY%eme
+ItemDisplay[gsr]: %RED%>%GRAY%ruby
+ItemDisplay[gsb]: %BLUE%>%GRAY%saph
+ItemDisplay[gsy]: %YELLOW%>%GRAY%top
+ItemDisplay[sku]: %BLACK%>%GRAY%skull
+ItemDisplay[gfv]: %PURPLE%>%GRAY%flaw
+ItemDisplay[gfw]: %WHITE%>%GRAY%flaw
+ItemDisplay[gfg]: %GREEN%>%GRAY%flaw
+ItemDisplay[gfr]: %RED%>%GRAY%flaw
+ItemDisplay[gfb]: %BLUE%>%GRAY%flaw
+ItemDisplay[gfy]: %YELLOW%>%GRAY%flaw
+ItemDisplay[skf]: %BLACK%>%GRAY%flaw sku
+ItemDisplay[gcv]: %PURPLE%>%GRAY%chip
+ItemDisplay[gcw]: %WHITE%>%GRAY%chip
+ItemDisplay[gcg]: %GREEN%>%GRAY%chip
+ItemDisplay[gcr]: %RED%>%GRAY%chip
+ItemDisplay[gcb]: %BLUE%>%GRAY%chip
+ItemDisplay[gcy]: %YELLOW%>%GRAY%chip
+ItemDisplay[skc]: %BLACK%>%GRAY%chip sku
 //╔═══════╗
 //║ RUNES ║
 //╚═══════╝
@@ -255,6 +252,12 @@ ItemDisplay[ID MAG SOCK=0 !ETH]: %NAME%
 ItemDisplay[ID MAG SOCK=0 ETH]: %NAME% eth
 ItemDisplay[ID MAG !SOCK=0 !ETH]: %NAME% (%SOCKETS%)
 ItemDisplay[ID MAG !SOCK=0 ETH]: %NAME% eth(%SOCKETS%)
+ItemDisplay[ID RARE EQ1 NORM SOCK=0 !ETH]: %NAME%{%ORANGE%Ral %WHITE%+ %ORANGE%Thul %WHITE%+ %PURPLE%P Ame%NL%%RED%Note%WHITE%: Upgrade Recipe:}
+ItemDisplay[ID RARE EQ2 NORM SOCK=0 !ETH]: %NAME%{%ORANGE%Ral %WHITE%+ %ORANGE%Thul %WHITE%+ %PURPLE%P Ame%NL%%RED%Note%WHITE%: Upgrade Recipe:}
+ItemDisplay[ID RARE EQ6 NORM !ETH]: %NAME%{%ORANGE%Ral %WHITE%+ %ORANGE%Thul %WHITE%+ %PURPLE%P Ame%NL%%RED%Note%WHITE%: Upgrade Recipe:}
+ItemDisplay[ID RARE EQ1 EXC SOCK=0 !ETH]: %NAME%{%ORANGE%Ko %WHITE%+ %ORANGE%Pul %WHITE%+ %PURPLE%P Ame%NL%%RED%Note%WHITE%: Upgrade Recipe:}
+ItemDisplay[ID RARE EQ2 EXC SOCK=0 !ETH]: %NAME%{%ORANGE%Ko %WHITE%+ %ORANGE%Pul %WHITE%+ %PURPLE%P Ame%NL%%RED%Note%WHITE%: Upgrade Recipe:}
+ItemDisplay[ID RARE EQ6 EXC !ETH]: %NAME%{%ORANGE%Ko %WHITE%+ %ORANGE%Pul %WHITE%+ %PURPLE%P Ame%NL%%RED%Note%WHITE%: Upgrade Recipe:}
 ItemDisplay[ID RARE SOCK=0 !ETH]: %NAME%
 ItemDisplay[ID RARE SOCK=0 ETH]: %NAME% %BLUE%eth
 ItemDisplay[ID RARE !SOCK=0 !ETH]: %NAME% %BLUE%(%SOCKETS%)
@@ -265,6 +268,12 @@ ItemDisplay[ID UNI cm1]: %BLACK%* %GOLD%Annihilus %BLACK%*
 ItemDisplay[ID UNI cm2]: %BLACK%< %GOLD%Hellfire Torch %BLACK%>
 ItemDisplay[ID UNI cm3]: %BLACK%* %GOLD%Gheed %BLACK%*
 ItemDisplay[ID UNI cm4]: %BLACK%* %GOLD%Sigil %BLACK%*
+//ItemDisplay[ID UNI EQ1 NORM SOCK=0]: %NAME%{%ORANGE%Tal %WHITE%+ %ORANGE%Shael %WHITE%+ P Dia%NL%%RED%Note%WHITE%: Upgrade Recipe:}
+//ItemDisplay[ID UNI EQ2 NORM SOCK=0]: %NAME%{%ORANGE%Tal %WHITE%+ %ORANGE%Shael %WHITE%+ P Dia%NL%%RED%Note%WHITE%: Upgrade Recipe:}
+//ItemDisplay[ID UNI EQ6 NORM]: %NAME%{%ORANGE%Tal %WHITE%+ %ORANGE%Shael %WHITE%+ P Dia%NL%%RED%Note%WHITE%: Upgrade Recipe:}
+//ItemDisplay[ID UNI EQ1 EXC SOCK=0]: %NAME%{%ORANGE%Ko %WHITE%+ %ORANGE%Lem %WHITE%+ P Dia%NL%%RED%Note%WHITE%: Upgrade Recipe:}
+//ItemDisplay[ID UNI EQ2 EXC SOCK=0]: %NAME%{%ORANGE%Ko %WHITE%+ %ORANGE%Lem %WHITE%+ P Dia%NL%%RED%Note%WHITE%: Upgrade Recipe:}
+//ItemDisplay[ID UNI EQ6 EXC]: %NAME%{%ORANGE%Ko %WHITE%+ %ORANGE%Lem %WHITE%+ P Dia%NL%%RED%Note%WHITE%: Upgrade Recipe:}
 ItemDisplay[ID UNI SOCK=0 !ETH]: %NAME%
 ItemDisplay[ID UNI SOCK=0 ETH]: %NAME% %BLUE%eth
 ItemDisplay[ID UNI !SOCK=0 !ETH]: %NAME% %BLUE%(%SOCKETS%)
@@ -818,8 +827,8 @@ ItemDisplay[NMAG WP1 SOCK>1 ETH ILVL<64]: %NAME% %BLUE%eth(%SOCKETS%)
 ItemDisplay[NMAG WP1 SOCK>1 ILVL>63]:
 ItemDisplay[NMAG WP1]:
 // WP2
-ItemDisplay[NMAG fla !ETH SOCK>3]: %RED%+ %GRAY%%NAME% %RED%+ %BLUE%(%SOCKETS%)
-ItemDisplay[NMAG fla ETH SOCK>3]: %RED%+ %GRAY%%NAME% %RED%+ %BLUE%eth(%SOCKETS%)
+ItemDisplay[NMAG fla !ETH SOCK=4]: %RED%+ %GRAY%%NAME% %RED%+ %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG fla ETH SOCK=4]: %RED%+ %GRAY%%NAME% %RED%+ %BLUE%eth(%SOCKETS%)
 ItemDisplay[NMAG WP2 SOCK>1 !ETH ILVL<64]: %NAME% %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG WP2 SOCK>1 ETH ILVL<64]: %NAME% %BLUE%eth(%SOCKETS%)
 ItemDisplay[NMAG WP2 SOCK>1 ILVL>63]:
