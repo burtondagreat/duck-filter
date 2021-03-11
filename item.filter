@@ -22,10 +22,10 @@ ItemDisplay[ma8]: %NAME%%NOTIFY-ITEM%
 ItemDisplay[ma9]: %NAME%%NOTIFY-ITEM%
 ItemDisplay[ma10]: %NAME%%NOTIFY-ITEM%
 ItemDisplay[ma11]: %NAME%%NOTIFY-ITEM%
-ItemDisplay[fed]: %GREEN%xxxxxxxxxx SAND xxxxxxxxxx%NOTIFY-ITEM%
-ItemDisplay[tes]: %BLUE%xxx SAND xxx%NOTIFY-ITEM%
-ItemDisplay[ceh]: %YELLOW%xxx SAND xxx%NOTIFY-ITEM%
-ItemDisplay[bet]: %RED%xxx SAND xxx%NOTIFY-ITEM%
+ItemDisplay[fed]: %SOUND-1198%%GREEN%xxxxxxxxxx SAND xxxxxxxxxx%NOTIFY-ITEM%
+ItemDisplay[tes]: %SOUND-1198%%BLUE%xxx SAND xxx%NOTIFY-ITEM%
+ItemDisplay[ceh]: %SOUND-1198%%YELLOW%xxx SAND xxx%NOTIFY-ITEM%
+ItemDisplay[bet]: %SOUND-1198%%RED%xxx SAND xxx%NOTIFY-ITEM%
 ItemDisplay[toa]: %WHITE%%NAME%
 ItemDisplay[cx7]: %TAN% %ORANGE%CHAOS %TAN%%NOTIFY-ITEM%
 ItemDisplay[pk1]: %TAN% %PURPLE%TERROR %TAN%%NOTIFY-ITEM%
@@ -100,7 +100,7 @@ ItemDisplay[CLVL<65 mp4]: %BLACK%_%BLUE%@%BLACK%_
 ItemDisplay[CLVL<45 mp3]: %BLACK%_%BLUE%@%BLACK%_
 ItemDisplay[CLVL<25 mp2]: %BLACK%_%BLUE%@%BLACK%_
 ItemDisplay[CLVL<12 mp1]: %BLACK%_%BLUE%@%BLACK%_
-ItemDisplay[leg]: %NAME%%MAP-00% // Wirt's Leg
+ItemDisplay[leg]: %SOUND-1353%%NAME%%MAP-00% // Wirt's Leg
 ItemDisplay[ear]: %ORANGE%%NAME%
 ItemDisplay[yps]: %DARK_GREEN%@
 ItemDisplay[wms]:
@@ -268,12 +268,12 @@ ItemDisplay[ID UNI cm1]: %BLACK%* %GOLD%Annihilus %BLACK%*
 ItemDisplay[ID UNI cm2]: %BLACK%< %GOLD%Hellfire Torch %BLACK%>
 ItemDisplay[ID UNI cm3]: %BLACK%* %GOLD%Gheed %BLACK%*
 ItemDisplay[ID UNI cm4]: %BLACK%* %GOLD%Sigil %BLACK%*
-//ItemDisplay[ID UNI EQ1 NORM SOCK=0]: %NAME%{%ORANGE%Tal %WHITE%+ %ORANGE%Shael %WHITE%+ P Dia%NL%%RED%Note%WHITE%: Upgrade Recipe:}
-//ItemDisplay[ID UNI EQ2 NORM SOCK=0]: %NAME%{%ORANGE%Tal %WHITE%+ %ORANGE%Shael %WHITE%+ P Dia%NL%%RED%Note%WHITE%: Upgrade Recipe:}
-//ItemDisplay[ID UNI EQ6 NORM]: %NAME%{%ORANGE%Tal %WHITE%+ %ORANGE%Shael %WHITE%+ P Dia%NL%%RED%Note%WHITE%: Upgrade Recipe:}
-//ItemDisplay[ID UNI EQ1 EXC SOCK=0]: %NAME%{%ORANGE%Ko %WHITE%+ %ORANGE%Lem %WHITE%+ P Dia%NL%%RED%Note%WHITE%: Upgrade Recipe:}
-//ItemDisplay[ID UNI EQ2 EXC SOCK=0]: %NAME%{%ORANGE%Ko %WHITE%+ %ORANGE%Lem %WHITE%+ P Dia%NL%%RED%Note%WHITE%: Upgrade Recipe:}
-//ItemDisplay[ID UNI EQ6 EXC]: %NAME%{%ORANGE%Ko %WHITE%+ %ORANGE%Lem %WHITE%+ P Dia%NL%%RED%Note%WHITE%: Upgrade Recipe:}
+ItemDisplay[ID UNI EQ1 NORM SOCK=0]: %NAME%{%ORANGE%Tal %WHITE%+ %ORANGE%Shael %WHITE%+ P Dia%NL%%RED%Note%WHITE%: Upgrade Recipe:}
+ItemDisplay[ID UNI EQ2 NORM SOCK=0]: %NAME%{%ORANGE%Tal %WHITE%+ %ORANGE%Shael %WHITE%+ P Dia%NL%%RED%Note%WHITE%: Upgrade Recipe:}
+ItemDisplay[ID UNI EQ6 NORM]: %NAME%{%ORANGE%Tal %WHITE%+ %ORANGE%Shael %WHITE%+ P Dia%NL%%RED%Note%WHITE%: Upgrade Recipe:}
+ItemDisplay[ID UNI EQ1 EXC SOCK=0]: %NAME%{%ORANGE%Ko %WHITE%+ %ORANGE%Lem %WHITE%+ P Dia%NL%%RED%Note%WHITE%: Upgrade Recipe:}
+ItemDisplay[ID UNI EQ2 EXC SOCK=0]: %NAME%{%ORANGE%Ko %WHITE%+ %ORANGE%Lem %WHITE%+ P Dia%NL%%RED%Note%WHITE%: Upgrade Recipe:}
+ItemDisplay[ID UNI EQ6 EXC]: %NAME%{%ORANGE%Ko %WHITE%+ %ORANGE%Lem %WHITE%+ P Dia%NL%%RED%Note%WHITE%: Upgrade Recipe:}
 ItemDisplay[ID UNI SOCK=0 !ETH]: %NAME%
 ItemDisplay[ID UNI SOCK=0 ETH]: %NAME% %BLUE%eth
 ItemDisplay[ID UNI !SOCK=0 !ETH]: %NAME% %BLUE%(%SOCKETS%)
@@ -281,20 +281,20 @@ ItemDisplay[ID UNI !SOCK=0 ETH]: %NAME% %BLUE%eth(%SOCKETS%)
 //╔═══════╗
 //║ MAGIC ║
 //╚═══════╝
-ItemDisplay[MAG !ID amu]: %SOUND-1511%%ORANGE%%NAME% %GRAY%%ILVL%
+ItemDisplay[MAG !ID amu]: %SOUND-1138%%ORANGE%%NAME% %GRAY%%ILVL%
 ItemDisplay[MAG !ID rin ILVL<65]: %NAME% %GRAY%%ILVL%
 //ItemDisplay[MAG !ID EQ2 ELT !ETH]: %NAME% %PRICE%
 //ItemDisplay[MAG !ID EQ2 EXC !ETH]: %NAME% %PRICE%
 //ItemDisplay[MAG !ID EQ7 !ETH]: %NAME% %PRICE%
-ItemDisplay[MAG !ID EQ4 !ETH]: %NAME% %RED%probably sucks
+//ItemDisplay[MAG !ID EQ4 !ETH]: %NAME% %RED%probably sucks
 ItemDisplay[MAG !ID cm1]: %SOUND-2883%%BLACK%* %ORANGE%charm %BLACK%*%GRAY%%ILVL%%NOTIFY-ITEM%
 ItemDisplay[MAG !ID cm3]: %SOUND-2916%%BLACK%* %ORANGE%CHARM %BLACK%*%GRAY%%ILVL%%NOTIFY-ITEM%
 ItemDisplay[MAG !ID cm2 ILVL<70]: %BLACK%< %BLUE%large %BLACK%>%GRAY%%ILVL%
-ItemDisplay[MAG !ID ci0 !ETH]: %RED%+ %BLUE%%NAME% %RED%+
-ItemDisplay[MAG !ID ci1 !ETH]: %RED%+ %BLUE%%NAME% %RED%+
-ItemDisplay[MAG !ID ci2 !ETH]: %RED%+ %BLUE%%NAME% %RED%+
-ItemDisplay[MAG !ID ci3 !ETH]: %RED%+ %BLUE%%NAME% %RED%+
-ItemDisplay[MAG !ID jew]: %NAME%
+ItemDisplay[MAG !ID ci0 !ETH]: %SOUND-934%%RED%+ %BLUE%%NAME% %RED%+
+ItemDisplay[MAG !ID ci1 !ETH]: %SOUND-934%%RED%+ %BLUE%%NAME% %RED%+
+ItemDisplay[MAG !ID ci2 !ETH]: %SOUND-934%%RED%+ %BLUE%%NAME% %RED%+
+ItemDisplay[MAG !ID ci3 !ETH]: %SOUND-934%%RED%+ %BLUE%%NAME% %RED%+
+ItemDisplay[MAG !ID jew]: %SOUND-996%%NAME%
 ItemDisplay[MAG !ID CL5 (!ktr !wrb !axf !ces !clw !btl !skr !9ar !9wb !9xf)]: %RED%+ %BLUE%Claw %RED%+
 ItemDisplay[MAG !ID CL6]: %NAME%
 ItemDisplay[MAG !ID CL1]: %RED%+ %BLUE%%NAME% %RED%+
@@ -312,9 +312,9 @@ ItemDisplay[MAG !ID ILVL>63]:
 ItemDisplay[RARE !ID aq2]: %PURPLE%+ %YELLOW%%NAME% %PURPLE%+
 //ItemDisplay[RARE !ID cq2]: %PURPLE%+ %YELLOW%%NAME% %PURPLE%+
 //ItemDisplay[RARE !ID cq2]:
-ItemDisplay[RARE !ID amu]: %RED%++ %YELLOW%%NAME% %RED%++%NOTIFY-ITEM%
-ItemDisplay[RARE !ID rin]: %RED%++ %YELLOW%%NAME% %RED%++%NOTIFY-ITEM%
-ItemDisplay[RARE !ID jew]: %BLACK%*%RED%J%ORANGE%E%YELLOW%W%GREEN%E%BLUE%L%BLACK%*
+ItemDisplay[RARE !ID amu]: %SOUND-1607%%RED%++ %YELLOW%%NAME% %RED%++%NOTIFY-ITEM%
+ItemDisplay[RARE !ID rin]: %SOUND-1607%%RED%++ %YELLOW%%NAME% %RED%++%NOTIFY-ITEM%
+ItemDisplay[RARE !ID jew]: %SOUND-1607%%BLACK%*%RED%J%ORANGE%E%YELLOW%W%GREEN%E%BLUE%L%BLACK%*
 // Class
 ItemDisplay[RARE !ID CL1 !ETH]: %RED%+ %YELLOW%%NAME% %RED%+
 ItemDisplay[RARE !ID CL2 !ETH]: %NAME%
@@ -370,8 +370,10 @@ ItemDisplay[RARE !ID EQ5 ETH]:
 //ItemDisplay[RARE !ID (zlb OR zvb) !ETH]: *%NAME%*
 ItemDisplay[RARE !ID EQ6 !ETH]: %NAME%
 ItemDisplay[RARE !ID EQ6 ETH]:
-ItemDisplay[RARE !ID ci2 !ETH]: %RED%++ %YELLOW%%NAME% %RED%++
-ItemDisplay[RARE !ID ci3 !ETH]: %RED%++ %YELLOW%%NAME% %RED%++
+ItemDisplay[RARE !ID ci0 !ETH]: %SOUND-913%%RED%++ %YELLOW%%NAME% %RED%++
+ItemDisplay[RARE !ID ci1 !ETH]: %SOUND-913%%RED%++ %YELLOW%%NAME% %RED%++
+ItemDisplay[RARE !ID ci2 !ETH]: %SOUND-913%%RED%++ %YELLOW%%NAME% %RED%++
+ItemDisplay[RARE !ID ci3 !ETH]: %SOUND-913%%RED%++ %YELLOW%%NAME% %RED%++
 ItemDisplay[RARE !ID EQ7 !ETH]: %RED%+ %YELLOW%%NAME% %RED%+
 ItemDisplay[RARE !ID EQ7 ETH]:
 // Axe
