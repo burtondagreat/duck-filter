@@ -314,7 +314,7 @@ ItemDisplay[RARE !ID aq2]: %PURPLE%+ %YELLOW%%NAME% %PURPLE%+
 //ItemDisplay[RARE !ID cq2]:
 ItemDisplay[RARE !ID amu]: %RED%++ %YELLOW%%NAME% %RED%++%NOTIFY-ITEM%
 ItemDisplay[RARE !ID rin]: %RED%++ %YELLOW%%NAME% %RED%++%NOTIFY-ITEM%
-ItemDisplay[RARE !ID jew]: %BLACK%{%RED%J%ORANGE%E%YELLOW%W%GREEN%E%BLUE%L%BLACK%}%PURPLE%x
+ItemDisplay[RARE !ID jew]: %BLACK%*%RED%J%ORANGE%E%YELLOW%W%GREEN%E%BLUE%L%BLACK%*
 // Class
 ItemDisplay[RARE !ID CL1 !ETH]: %RED%+ %YELLOW%%NAME% %RED%+
 ItemDisplay[RARE !ID CL2 !ETH]: %NAME%
