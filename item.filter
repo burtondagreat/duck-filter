@@ -68,6 +68,11 @@ ItemDisplay[MAG ID WP13 (TABSK25>2 AND SK114>2)]: %RED%xxxxxxxxx %PURPLE%Holy Fr
 ItemDisplay[MAG ID WP13 (TABSK25>2 AND SK118>2)]: %RED%xxxxxxxxx %PURPLE%Holy Shock Scepter %RED%xxxxxxxxx
 ItemDisplay[MAG ID WP13 (TABSK25>2 AND SK119>2)]: %RED%xxxxxxxxx %PURPLE%Sanctuary Scepter %RED%xxxxxxxxx
 ItemDisplay[MAG ID WP13 (TABSK24>2 AND SK121>2)]: %RED%xxxxxxxxx %PURPLE%Fist of the Heavens %RED%xxxxxxxxx
+// Wands
+ItemDisplay[NMAG WP12 !wnd !ywn !9wn (SK79>1) (SK70>1 OR SK74>1) (SOCK=0 OR SOCK=2)]: %RED%WHITE WAND
+ItemDisplay[NMAG WP12 !wnd !ywn !9wn (SK79>2) (SK84>2 OR SK92>2 OR SK70>2 OR SK74>2) (SOCK=0 OR SOCK=2)]: %RED%xxxxxxxxx %PURPLE%GOD WAND %RED%xxxxxxxxxx
+ItemDisplay[NMAG CL4 !ETH (SK79>1) (SK70>1 OR SK69>1) (SOCK=0 OR SOCK=2)]: %RED%Necro Shield
+ItemDisplay[NMAG CL4 !ETH (SK79>2) (SK70>2 AND SK69>2) (SOCK=0 OR SOCK=2)]: %RED%xxxxxxxxx %PURPLE%SUMMON GOD SHIELD %RED%xxxxxxxxxx
 //╔═══════════╗
 //║ INVENTORY ║
 //╚═══════════╝
