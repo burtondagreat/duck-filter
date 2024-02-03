@@ -1,6 +1,6 @@
 //╔══════════════════════════════════════════╗
 //║ L@@K ^^ Item Codes @ Path of Diablo Wiki ║
-//║ Duck Filter 2.0 Release                  ║
+//║ Duck Filter 3.0 Release                  ║
 //║ PATCH: Flint                  		Quack║
 //╚══════════════════════════════════════════╝
 ItemDisplay[CLVL>79 GOLD<5000]:
@@ -22,11 +22,10 @@ ItemDisplay[ma8]: %NAME%%NOTIFY-ITEM%
 ItemDisplay[ma9]: %NAME%%NOTIFY-ITEM%
 ItemDisplay[ma10]: %NAME%%NOTIFY-ITEM%
 ItemDisplay[ma11]: %NAME%%NOTIFY-ITEM%
-ItemDisplay[fed]: %SOUND-1198%%GREEN%xxxxxxxxxx SAND xxxxxxxxxx%NOTIFY-ITEM%
-ItemDisplay[tes]: %SOUND-1198%%BLUE%xxx SAND xxx%NOTIFY-ITEM%
-ItemDisplay[ceh]: %SOUND-1198%%YELLOW%xxx SAND xxx%NOTIFY-ITEM%
-ItemDisplay[bet]: %SOUND-1198%%RED%xxx SAND xxx%NOTIFY-ITEM%
-ItemDisplay[toa]: %WHITE%%NAME%
+ItemDisplay[fed]: %GREEN%xxxxxxxxxx SAND xxxxxxxxxx%NOTIFY-ITEM%
+ItemDisplay[tes]: %BLUE%xxx SAND xxx%NOTIFY-ITEM%
+ItemDisplay[ceh]: %YELLOW%xxx SAND xxx%NOTIFY-ITEM%
+ItemDisplay[bet]: %RED%xxx SAND xxx%NOTIFY-ITEM%
 ItemDisplay[cx7]: %TAN% %ORANGE%CHAOS %TAN%%NOTIFY-ITEM%
 ItemDisplay[pk1]: %TAN% %PURPLE%TERROR %TAN%%NOTIFY-ITEM%
 ItemDisplay[pk3]: %TAN% %YELLOW%DESTRUCTION %TAN%%NOTIFY-ITEM%
@@ -36,7 +35,29 @@ ItemDisplay[dhn]: %PURPLE%+++ %GOLD%HORN %PURPLE%+++%NOTIFY-ITEM%
 ItemDisplay[mbr]: %PURPLE%+++ %GOLD%BRAIN %PURPLE%+++%NOTIFY-ITEM%
 ItemDisplay[cx6]: %GOLD%+++++ %RED%SOULSTONE %GOLD%+++++%NOTIFY-ITEM%
 ItemDisplay[std]: %GOLD%+ %DARK_GREEN%Standard %GOLD%+%NOTIFY-ITEM%
-ItemDisplay[cx9]: %GOLD%+ %ORANGE%???????? %GOLD%+%NOTIFY-ITEM%
+ItemDisplay[bks]: %NAME%
+ItemDisplay[bkd]: %NAME%
+ItemDisplay[hdm]: %NAME%
+ItemDisplay[tr1]: %NAME%
+ItemDisplay[ass]: %GOLD%Book of Skill
+ItemDisplay[msf]: %NAME%
+ItemDisplay[vip]: %NAME%
+ItemDisplay[hst]: %NAME%
+ItemDisplay[j34]: %NAME%
+ItemDisplay[g34]: %NAME%
+ItemDisplay[xyz]: %GOLD%Potion of Life
+ItemDisplay[g33]: %NAME%
+ItemDisplay[bbb]: %NAME%
+ItemDisplay[qbr]: %NAME%
+ItemDisplay[qey]: %NAME%
+ItemDisplay[qhr]: %NAME%
+ItemDisplay[qf1]: %NAME%
+ItemDisplay[qf2]: %NAME%
+ItemDisplay[mss]: %NAME%
+ItemDisplay[hfh]: %NAME%
+ItemDisplay[ice]: %GOLD%Malah's Potion
+ItemDisplay[tr2]: %GOLD%Scroll of Resistance
+ItemDisplay[toa]: %ORANGE%Token of Absolution
 //╔══════════════╗
 //║ Vendor Items ║
 //╚══════════════╝
@@ -89,7 +110,7 @@ ItemDisplay[box]: %ORANGE%Quite a treasure!
 ItemDisplay[hp5]: %BLACK%_%RED%@%BLACK%_
 ItemDisplay[mp5]: %BLACK%_%BLUE%@%BLACK%_
 ItemDisplay[rvs]: %BLACK%_%PURPLE%*%BLACK%_
-ItemDisplay[rvl]: %SOUND-2899%%BLACK%_%PURPLE%@%BLACK%_
+ItemDisplay[rvl]: %BLACK%_%PURPLE%@%BLACK%_
 ItemDisplay[CLVL>64 hp4]:
 ItemDisplay[CLVL>44 hp3]:
 ItemDisplay[CLVL>24 hp2]:
@@ -106,7 +127,7 @@ ItemDisplay[CLVL<65 mp4]: %BLACK%_%BLUE%@%BLACK%_
 ItemDisplay[CLVL<45 mp3]: %BLACK%_%BLUE%@%BLACK%_
 ItemDisplay[CLVL<25 mp2]: %BLACK%_%BLUE%@%BLACK%_
 ItemDisplay[CLVL<12 mp1]: %BLACK%_%BLUE%@%BLACK%_
-ItemDisplay[leg]: %SOUND-1353%%NAME%%MAP-00% // Wirt's Leg
+ItemDisplay[leg]: %NAME%%MAP-00% // Wirt's Leg
 ItemDisplay[ear]: %ORANGE%%NAME%
 ItemDisplay[yps]: %DARK_GREEN%@
 ItemDisplay[wms]:
@@ -159,24 +180,24 @@ ItemDisplay[skc]: %BLACK%>%GRAY%chip sku
 //║ RUNES ║
 //╚═══════╝
 ItemDisplay[RW]: %NAME%
-ItemDisplay[r01]: %SOUND-1138%%YELLOW%%RUNENAME% %GRAY%1%NOTIFY-ITEM%
-ItemDisplay[r02]: %SOUND-1138%%YELLOW%%RUNENAME% %GRAY%2%NOTIFY-ITEM%
-ItemDisplay[r03]: %SOUND-1138%%YELLOW%%RUNENAME% %GRAY%3%PURPLE%xxx%NOTIFY-ITEM%
-ItemDisplay[r04]: %SOUND-1138%%YELLOW%%RUNENAME% %GRAY%4%PURPLE%xxx%NOTIFY-ITEM%
-ItemDisplay[r05]: %SOUND-1138%%YELLOW%%RUNENAME% %GRAY%5%PURPLE%xxx%NOTIFY-ITEM%
-ItemDisplay[r06]: %SOUND-1138%%YELLOW%%RUNENAME% %GRAY%6%PURPLE%xxx%NOTIFY-ITEM%
-ItemDisplay[r07]: %SOUND-1138%%YELLOW%%RUNENAME% %GRAY%7%PURPLE%xxx%NOTIFY-ITEM%
-ItemDisplay[r08]: %SOUND-1138%%YELLOW%%RUNENAME% %GRAY%8%PURPLE%xxx%NOTIFY-ITEM%
-ItemDisplay[r09]: %SOUND-1138%%YELLOW%%RUNENAME% %GRAY%9%PURPLE%xxx%NOTIFY-ITEM%
-ItemDisplay[r10]: %SOUND-1138%%YELLOW%%RUNENAME% %GRAY%10%PURPLE%xxx%NOTIFY-ITEM%
-ItemDisplay[r11]: %SOUND-1138%%YELLOW%%RUNENAME% %GRAY%11%NOTIFY-ITEM%
-ItemDisplay[r12]: %SOUND-1138%%YELLOW%%RUNENAME% %GRAY%12%PURPLE%xxx%NOTIFY-ITEM%
-ItemDisplay[r13]: %SOUND-1138%%YELLOW%%RUNENAME% %GRAY%13%NOTIFY-ITEM%
-ItemDisplay[r14]: %SOUND-1138%%YELLOW%%RUNENAME% %GRAY%14%NOTIFY-ITEM%
-ItemDisplay[r15]: %SOUND-1138%%YELLOW%%RUNENAME% %GRAY%15%NOTIFY-ITEM%
-ItemDisplay[r16]: %SOUND-1138%%YELLOW%%RUNENAME% %GRAY%16%NOTIFY-ITEM%
-ItemDisplay[r17]: %SOUND-1138%%RED%x %ORANGE%%RUNENAME% %RED%x %GRAY%17%NOTIFY-ITEM%
-ItemDisplay[r18]: %SOUND-1138%%RED%xxx %ORANGE%%RUNENAME% %RED%xxx %GRAY%18 %GREEN%wow!%NOTIFY-ITEM%
+ItemDisplay[r01]: %YELLOW%%RUNENAME% %GRAY%1%NOTIFY-ITEM%
+ItemDisplay[r02]: %YELLOW%%RUNENAME% %GRAY%2%NOTIFY-ITEM%
+ItemDisplay[r03]: %YELLOW%%RUNENAME% %GRAY%3%PURPLE%xxx%NOTIFY-ITEM%
+ItemDisplay[r04]: %YELLOW%%RUNENAME% %GRAY%4%PURPLE%xxx%NOTIFY-ITEM%
+ItemDisplay[r05]: %YELLOW%%RUNENAME% %GRAY%5%PURPLE%xxx%NOTIFY-ITEM%
+ItemDisplay[r06]: %YELLOW%%RUNENAME% %GRAY%6%PURPLE%xxx%NOTIFY-ITEM%
+ItemDisplay[r07]: %YELLOW%%RUNENAME% %GRAY%7%PURPLE%xxx%NOTIFY-ITEM%
+ItemDisplay[r08]: %YELLOW%%RUNENAME% %GRAY%8%PURPLE%xxx%NOTIFY-ITEM%
+ItemDisplay[r09]: %YELLOW%%RUNENAME% %GRAY%9%PURPLE%xxx%NOTIFY-ITEM%
+ItemDisplay[r10]: %YELLOW%%RUNENAME% %GRAY%10%PURPLE%xxx%NOTIFY-ITEM%
+ItemDisplay[r11]: %YELLOW%%RUNENAME% %GRAY%11%NOTIFY-ITEM%
+ItemDisplay[r12]: %YELLOW%%RUNENAME% %GRAY%12%PURPLE%xxx%NOTIFY-ITEM%
+ItemDisplay[r13]: %YELLOW%%RUNENAME% %GRAY%13%NOTIFY-ITEM%
+ItemDisplay[r14]: %YELLOW%%RUNENAME% %GRAY%14%NOTIFY-ITEM%
+ItemDisplay[r15]: %YELLOW%%RUNENAME% %GRAY%15%NOTIFY-ITEM%
+ItemDisplay[r16]: %YELLOW%%RUNENAME% %GRAY%16%NOTIFY-ITEM%
+ItemDisplay[r17]: %RED%x %ORANGE%%RUNENAME% %RED%x %GRAY%17%NOTIFY-ITEM%
+ItemDisplay[r18]: %RED%xxx %ORANGE%%RUNENAME% %RED%xxx %GRAY%18 %GREEN%wow!%NOTIFY-ITEM%
 ItemDisplay[r19]: %RED%xx %ORANGE%%RUNENAME% %RED%xx %GRAY%19 %GREEN%wow!%NOTIFY-ITEM%
 ItemDisplay[r20]: %RED%xxxxxx %ORANGE%%RUNENAME% %RED%xxxxxx %GRAY%20%NOTIFY-ITEM%
 ItemDisplay[r21]: %RED%xxxx %GOLD%%RUNENAME% %RED%xxxx %GRAY%21%NOTIFY-ITEM%
@@ -287,20 +308,20 @@ ItemDisplay[ID UNI !SOCK=0 ETH]: %NAME% %BLUE%eth(%SOCKETS%)
 //╔═══════╗
 //║ MAGIC ║
 //╚═══════╝
-ItemDisplay[MAG !ID amu ILVL>59]: %SOUND-1138%%ORANGE%%NAME% %GRAY%%ILVL%
+ItemDisplay[MAG !ID amu ILVL>59]: %ORANGE%%NAME% %GRAY%%ILVL%
 ItemDisplay[MAG !ID rin ILVL<28]: %NAME% %GRAY%%ILVL%
 //ItemDisplay[MAG !ID EQ2 ELT !ETH]: %NAME% %PRICE%
 //ItemDisplay[MAG !ID EQ2 EXC !ETH]: %NAME% %PRICE%
 //ItemDisplay[MAG !ID EQ7 !ETH]: %NAME% %PRICE%
 //ItemDisplay[MAG !ID EQ4 !ETH]: %NAME% %RED%probably sucks
-ItemDisplay[MAG !ID cm1]: %SOUND-2883%%BLACK%* %ORANGE%charm %BLACK%*%GRAY%%ILVL%%NOTIFY-ITEM%
-ItemDisplay[MAG !ID cm3]: %SOUND-2916%%BLACK%* %ORANGE%CHARM %BLACK%*%GRAY%%ILVL%%NOTIFY-ITEM%
+ItemDisplay[MAG !ID cm1]: %BLACK%* %ORANGE%charm %BLACK%*%GRAY%%ILVL%%NOTIFY-ITEM%
+ItemDisplay[MAG !ID cm3]: %BLACK%* %ORANGE%CHARM %BLACK%*%GRAY%%ILVL%%NOTIFY-ITEM%
 ItemDisplay[MAG !ID cm2 ILVL<70]: %BLACK%< %BLUE%large %BLACK%>%GRAY%%ILVL%
-ItemDisplay[MAG !ID ci0 !ETH ILVL>59]: %SOUND-934%%RED%+ %BLUE%%NAME% %RED%+
-ItemDisplay[MAG !ID ci1 !ETH ILVL>59]: %SOUND-934%%RED%+ %BLUE%%NAME% %RED%+
-ItemDisplay[MAG !ID ci2 !ETH ILVL>59]: %SOUND-934%%RED%+ %BLUE%%NAME% %RED%+
-ItemDisplay[MAG !ID ci3 !ETH ILVL>59]: %SOUND-934%%RED%+ %BLUE%%NAME% %RED%+
-ItemDisplay[MAG !ID jew]: %SOUND-996%%NAME%
+ItemDisplay[MAG !ID ci0 !ETH ILVL>59]: %RED%+ %BLUE%%NAME% %RED%+
+ItemDisplay[MAG !ID ci1 !ETH ILVL>59]: %RED%+ %BLUE%%NAME% %RED%+
+ItemDisplay[MAG !ID ci2 !ETH ILVL>59]: %RED%+ %BLUE%%NAME% %RED%+
+ItemDisplay[MAG !ID ci3 !ETH ILVL>59]: %RED%+ %BLUE%%NAME% %RED%+
+ItemDisplay[MAG !ID jew]: %NAME%
 //ItemDisplay[MAG !ID CL5 (!ktr !wrb !axf !ces !clw !btl !skr !9ar !9wb !9xf)]: %RED%+ %BLUE%Claw %RED%+
 //ItemDisplay[MAG !ID CL6]: %NAME%
 ItemDisplay[MAG !ID CL1 ILVL>59]: %RED%+ %BLUE%%NAME% %RED%+
@@ -318,9 +339,9 @@ ItemDisplay[MAG !ID ILVL>27]:
 ItemDisplay[RARE !ID aq2]: %PURPLE%+ %YELLOW%%NAME% %PURPLE%+
 //ItemDisplay[RARE !ID cq2]: %PURPLE%+ %YELLOW%%NAME% %PURPLE%+
 //ItemDisplay[RARE !ID cq2]:
-ItemDisplay[RARE !ID amu]: %SOUND-1607%%RED%++ %YELLOW%%NAME% %RED%++%NOTIFY-ITEM%
-ItemDisplay[RARE !ID rin]: %SOUND-1607%%RED%++ %YELLOW%%NAME% %RED%++%NOTIFY-ITEM%
-ItemDisplay[RARE !ID jew]: %SOUND-1607%%BLACK%*%RED%J%ORANGE%E%YELLOW%W%GREEN%E%BLUE%L%BLACK%*
+ItemDisplay[RARE !ID amu]: %RED%++ %YELLOW%%NAME% %RED%++%NOTIFY-ITEM%
+ItemDisplay[RARE !ID rin]: %RED%++ %YELLOW%%NAME% %RED%++%NOTIFY-ITEM%
+ItemDisplay[RARE !ID jew]: %BLACK%*%RED%J%ORANGE%E%YELLOW%W%GREEN%E%BLUE%L%BLACK%*
 // Class
 ItemDisplay[RARE !ID CL1 !ETH ILVL>49]: %RED%+ %YELLOW%%NAME% %RED%+
 ItemDisplay[RARE !ID CL2 !ETH ILVL>49]: %NAME%
@@ -376,10 +397,10 @@ ItemDisplay[RARE !ID EQ5 ETH]:
 //ItemDisplay[RARE !ID (zlb OR zvb) !ETH]: *%NAME%*
 ItemDisplay[RARE !ID EQ6 !ETH]: %NAME%
 ItemDisplay[RARE !ID EQ6 ETH]:
-ItemDisplay[RARE !ID ci0 !ETH]: %SOUND-913%%RED%++ %YELLOW%%NAME% %RED%++
-ItemDisplay[RARE !ID ci1 !ETH]: %SOUND-913%%RED%++ %YELLOW%%NAME% %RED%++
-ItemDisplay[RARE !ID ci2 !ETH]: %SOUND-913%%RED%++ %YELLOW%%NAME% %RED%++
-ItemDisplay[RARE !ID ci3 !ETH]: %SOUND-913%%RED%++ %YELLOW%%NAME% %RED%++
+ItemDisplay[RARE !ID ci0 !ETH]: %RED%++ %YELLOW%%NAME% %RED%++
+ItemDisplay[RARE !ID ci1 !ETH]: %RED%++ %YELLOW%%NAME% %RED%++
+ItemDisplay[RARE !ID ci2 !ETH]: %RED%++ %YELLOW%%NAME% %RED%++
+ItemDisplay[RARE !ID ci3 !ETH]: %RED%++ %YELLOW%%NAME% %RED%++
 ItemDisplay[RARE !ID EQ7 !ETH]: %RED%+ %YELLOW%%NAME% %RED%+
 ItemDisplay[RARE !ID EQ7 ETH]:
 // Axe
@@ -443,9 +464,9 @@ ItemDisplay[SET !ID xsk]: %GREEN%x %DARK_GREEN%Tal Rasha's Horadric Crest %GREEN
 //ItemDisplay[SET !ID uhm !ETH]: %GOLD%xxxxxx %DARK_GREEN%Ondal's Almighty %GOLD%xxxxxx
 //ItemDisplay[SET !ID xhl]: %GREEN%x %DARK_GREEN%Sazabi's Mental Sheath %GREEN%x
 // SET Filter
-ItemDisplay[SET !ID !ETH ILVL>98]: %SOUND-2891%%GREEN%%NAME% %PURPLE%99 wow so cool
-ItemDisplay[SET !ID ILVL<71]: %SOUND-2891%%NAME%
-ItemDisplay[SET !ID ILVL<87]: %SOUND-2891%%BLACK%TUMOR DONATION %GREEN%%NAME%
+ItemDisplay[SET !ID !ETH ILVL>98]: %GREEN%%NAME% %PURPLE%99 wow so cool
+ItemDisplay[SET !ID ILVL<71]: %NAME%
+ItemDisplay[SET !ID ILVL<87]: %BLACK%TUMOR DONATION %GREEN%%NAME%
 ItemDisplay[SET !ID ILVL>86]:
 //╔══════╗
 //║ NMAG ║
@@ -1392,9 +1413,9 @@ ItemDisplay[UNI !ID ama !ETH]: %GOLD%xxx %PURPLE%Titan's Revenge %GOLD%xxx%NOTIF
 //ItemDisplay[UNI !ID amb]: %GOLD%x Blood Raven's Charge x
 //ItemDisplay[UNI !ID am7]: %GOLD%x Lycander's Aim x
 // UNI Filter
-ItemDisplay[UNI !ID !ETH ILVL>98]: %SOUND-2908%%GOLD%%NAME% %PURPLE%99 wow so cool!
-ItemDisplay[UNI !ID !ETH ILVL<71]: %SOUND-2908%%NAME%
-ItemDisplay[UNI !ID ETH ILVL<71]: %SOUND-2908%eth %NAME%
-ItemDisplay[UNI !ID ILVL<86]: %SOUND-2908%%BLACK%OMEGALUL %TAN%%NAME% %BLACK%OMEGALUL
+ItemDisplay[UNI !ID !ETH ILVL>98]: %GOLD%%NAME% %PURPLE%99 wow so cool!
+ItemDisplay[UNI !ID !ETH ILVL<71]: %NAME%
+ItemDisplay[UNI !ID ETH ILVL<71]: eth %NAME%
+ItemDisplay[UNI !ID ILVL<86]: %BLACK%OMEGALUL %TAN%%NAME% %BLACK%OMEGALUL
 ItemDisplay[UNI !ID ILVL>85]:
 // End of Loot Filter
