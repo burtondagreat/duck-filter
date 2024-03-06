@@ -1,6 +1,6 @@
 //╔══════════════════════════════════════════╗
 //║ L@@K ^^ Item Codes @ Path of Diablo Wiki ║
-//║ Duck Filter 4.0 Release                  ║
+//║ Duck Filter 4.1 Release                  ║
 //║ PATCH: Flint                  		Quack║
 //╚══════════════════════════════════════════╝
 
@@ -924,9 +924,9 @@ ItemDisplay[NMAG WP2]:
 // WP3
 //ItemDisplay[NMAG 7gd ETH SOCK=0]: %PURPLE%+++++ %ORANGE%COLOSSUS BLADE %PURPLE%+++++ %BLUE%eth
 //ItemDisplay[NMAG 7gd ETH SOCK=6]: %PURPLE%+++++ %ORANGE%COLOSSUS BLADE %PURPLE%+++++ %BLUE%eth %RED%(%SOCKETS%)
-//ItemDisplay[NMAG crs !ETH SOCK>3]: %ORANGE%%NAME% %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG crs !ETH SOCK=4 ILVL<60]: %ORANGE%%NAME% %BLUE%(%SOCKETS%)%MAPICON(15,11)%%NOTIFY(ITEM)%%NOTIFYSOUND(wow1)%
 //ItemDisplay[NMAG crs ETH SOCK>3]:
-//ItemDisplay[NMAG crs !ETH SOCK=0 ILVL=28]: %RED%+ %ORANGE%Spirit CS Base %RED%+ %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG crs !ETH SOCK=0 ILVL=28]: %RED%+ %ORANGE%Spirit CS Base %RED%+ %BLUE%(%SOCKETS%)%MAPICON(15,11)%%NOTIFY(ITEM)%%NOTIFYSOUND(wow1)%
 ItemDisplay[NMAG 7cr SOCK=3 ED=15]: %PURPLE%+++++ %ORANGE%PHASE BLADE %PURPLE%+++++{%RED%Lawbringer%WHITE%: %ORANGE%AmnLemKo}
 //ItemDisplay[NMAG 7cr SOCK=6 ED=15]: %PURPLE%+++++ %ORANGE%PHASE BLADE %PURPLE%+++++
 //ItemDisplay[NMAG 7cr SOCK=5 ED=15]: %PURPLE%+++++ %ORANGE%PHASE BLADE %PURPLE%+++++ %BLUE%(%SOCKETS%)
