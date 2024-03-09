@@ -1,6 +1,6 @@
 //╔══════════════════════════════════════════╗
 //║ L@@K ^^ Item Codes @ Path of Diablo Wiki ║
-//║ Duck Filter 4.11 Release                 ║
+//║ Duck Filter 4.12 Release                 ║
 //║ PATCH: goodnight or something       Quack║
 //╚══════════════════════════════════════════╝
 
@@ -180,13 +180,13 @@ ItemDisplay[gpr]: %BLACK%-%RED%GEM%BLACK%-
 ItemDisplay[gpb]: %BLACK%-%BLUE%GEM%BLACK%-
 ItemDisplay[gpy]: %BLACK%-%YELLOW%GEM%BLACK%-
 ItemDisplay[skz]: %BLACK%-%GRAY%SKULL%BLACK%-
-ItemDisplay[gzv CLVL<31]: %PURPLE%-%GRAY%gem
-ItemDisplay[glw CLVL<31]: %WHITE%-%GRAY%gem
-ItemDisplay[glg CLVL<31]: %GREEN%-%GRAY%gem
-ItemDisplay[glr CLVL<31]: %RED%-%GRAY%gem
-ItemDisplay[glb CLVL<31]: %BLUE%-%GRAY%gem
-ItemDisplay[gly CLVL<31]: %YELLOW%-%GRAY%gem
-ItemDisplay[skl CLVL<31]: %BLACK%-%GRAY%sku
+ItemDisplay[gzv]: %PURPLE%-%GRAY%gem
+ItemDisplay[glw]: %WHITE%-%GRAY%gem
+ItemDisplay[glg]: %GREEN%-%GRAY%gem
+ItemDisplay[glr]: %RED%-%GRAY%gem
+ItemDisplay[glb]: %BLUE%-%GRAY%gem
+ItemDisplay[gly]: %YELLOW%-%GRAY%gem
+ItemDisplay[skl]: %BLACK%-%GRAY%sku
 ItemDisplay[gsv CLVL<31]: %PURPLE%-%GRAY%ame
 ItemDisplay[gsw CLVL<31]: %WHITE%-%GRAY%diam
 ItemDisplay[gsg CLVL<31]: %GREEN%-%GRAY%eme
@@ -581,9 +581,9 @@ ItemDisplay[NMAG CL1 SOCK>1 ETH]:
 ItemDisplay[NMAG CL1 SOCK>1 ILVL>27]:
 ItemDisplay[NMAG CL1 SOCK=0]:
 // CL2
-ItemDisplay[NMAG CL2 !ETH SK149=3 SOCK=2 ILVL<64]: %ORANGE%BO Lore
-ItemDisplay[NMAG CL2 !ETH SK154=3 SOCK=2 ILVL<64]: %ORANGE%War Cry Lore
-//ItemDisplay[NMAG CL2 !ETH SK133=3 SOCK=0]: %WHITE%+3 %ORANGE%Throw Helm
+ItemDisplay[NMAG CL2 !ETH SK149>2 SOCK=2 ILVL<64]: %ORANGE%BO Lore
+ItemDisplay[NMAG CL2 !ETH SK154>2 SOCK=2 ILVL<64]: %ORANGE%War Cry Lore
+ItemDisplay[NMAG CL2 !ETH SK153>2 SOCK=2 ILVL<64]: %ORANGE%Nat Res Lore
 //ItemDisplay[NMAG CL2 !ETH SK138=3 SOCK=0]: %WHITE%+3 %ORANGE%Shout Helm
 //ItemDisplay[NMAG CL2 !ETH SK142=3 SOCK=0]: %WHITE%+3 %ORANGE%Find Item Helm
 //ItemDisplay[NMAG CL2 !ETH SK149=3 SOCK=0]: %WHITE%+3 %ORANGE%BO Helm
@@ -653,15 +653,15 @@ ItemDisplay[NMAG CL3 SOCK=0 ILVL>27]:
 //ItemDisplay[NMAG WP12 !wnd !ywn !9wn SK68=3 SOCK=0]: %WHITE%+3 %ORANGE%Bone Armor Wand
 //ItemDisplay[NMAG WP12 !wnd !ywn !9wn SK73=3 SOCK=0]: %WHITE%+3 %ORANGE%Deadly Poison Wand
 //ItemDisplay[NMAG WP12 !wnd !ywn !9wn SK85=3 SOCK=0]: %WHITE%+3 %ORANGE%Blood Golem Wand
-//ItemDisplay[NMAG WP12 !wnd !ywn !9wn SK94=3 SOCK=0]: %WHITE%+3 %ORANGE%Fire Golem Wand
-ItemDisplay[NMAG WP12 !wnd !ywn !9wn (SK67>2) SOCK>1 ILVL<64]: %WHITE%+3 %ORANGE%Teeth wand %BLUE%(%SOCKETS%)
-ItemDisplay[NMAG WP12 !wnd !ywn !9wn (SK83>2) SOCK>1 ILVL<64]: %WHITE%+3 %ORANGE%Desecrate Wand %BLUE%(%SOCKETS%)
-ItemDisplay[NMAG WP12 !wnd !ywn !9wn (SK84>2) SOCK>1 ILVL<64]: %WHITE%+3 %ORANGE%Bone Spear Wand %BLUE%(%SOCKETS%)
-ItemDisplay[NMAG WP12 !wnd !ywn !9wn (SK92>2) SOCK>1 ILVL<64]: %WHITE%+3 %ORANGE%Poison Nova Wand %BLUE%(%SOCKETS%)
-//ItemDisplay[NMAG WP12 !wnd !ywn !9wn SK68=3 SOCK=2]: %WHITE%+3 %ORANGE%Bone Armor Wand %BLUE%(%SOCKETS%)
-//ItemDisplay[NMAG WP12 !wnd !ywn !9wn SK73=3 SOCK=2]: %WHITE%+3 %ORANGE%Deadly Poison Wand %BLUE%(%SOCKETS%)
-//ItemDisplay[NMAG WP12 !wnd !ywn !9wn SK85=3 SOCK=2]: %WHITE%+3 %ORANGE%Blood Golem Wand %BLUE%(%SOCKETS%)
-//ItemDisplay[NMAG WP12 !wnd !ywn !9wn SK94=3 SOCK=2]: %WHITE%+3 %ORANGE%Fire Golem Wand %BLUE%(%SOCKETS%)
+//ItemDisplay[NMAG WP12 !wnd !ywn !9wn SKILL(94)=3 SOCK=0]: %WHITE%+3 %ORANGE%Fire Golem Wand
+ItemDisplay[NMAG WP12 !wnd !ywn !9wn SK67>2 SOCK>1 ILVL<64]: %WHITE%+3 %ORANGE%Teeth wand %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG WP12 !wnd !ywn !9wn SK83>2 SOCK>1 ILVL<64]: %WHITE%+3 %ORANGE%Desecrate Wand %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG WP12 !wnd !ywn !9wn SK84>2 SOCK>1 ILVL<64]: %WHITE%+3 %ORANGE%Bone Spear Wand %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG WP12 !wnd !ywn !9wn SK92>2 SOCK>1 ILVL<64]: %WHITE%+3 %ORANGE%Poison Nova Wand %BLUE%(%SOCKETS%)
+//ItemDisplay[NMAG WP12 !wnd !ywn !9wn SKILL(68)=3 SOCK=2]: %WHITE%+3 %ORANGE%Bone Armor Wand %BLUE%(%SOCKETS%)
+//ItemDisplay[NMAG WP12 !wnd !ywn !9wn SKILL(73)=3 SOCK=2]: %WHITE%+3 %ORANGE%Deadly Poison Wand %BLUE%(%SOCKETS%)
+//ItemDisplay[NMAG WP12 !wnd !ywn !9wn SKILL(85)=3 SOCK=2]: %WHITE%+3 %ORANGE%Blood Golem Wand %BLUE%(%SOCKETS%)
+//ItemDisplay[NMAG WP12 !wnd !ywn !9wn SKILL(94)=3 SOCK=2]: %WHITE%+3 %ORANGE%Fire Golem Wand %BLUE%(%SOCKETS%)
 //ItemDisplay[NMAG CL4 !ETH SK67=3 SOCK=0]: %WHITE%+3 %ORANGE%Teeth Shield
 //ItemDisplay[NMAG CL4 !ETH SK83=3 SOCK=0]: %WHITE%+3 %ORANGE%Desecrate Shield
 //ItemDisplay[NMAG CL4 !ETH SK84=3 SOCK=0]: %WHITE%+3 %ORANGE%Bone Spear Shield
@@ -975,6 +975,7 @@ ItemDisplay[NMAG 7br SOCK=4 ETH]: %ORANGE%MANCATCHER %PURPLE%GREETINGS FROM GERM
 ItemDisplay[NMAG pik SOCK=4 !ETH ILVL<47]: %RED%+++ %ORANGE%BURT INSIGHT PIKE %RED%+++ %BLUE%(%SOCKETS%)%MAPICON(15,11)%%NOTIFY(ITEM)%%NOTIFYSOUND(sor1)%{%RED%Insight%WHITE%: %ORANGE%RalTirTalSoL}
 ItemDisplay[NMAG pik SOCK=0 !ETH ILVL=28]: %RED%+++ %ORANGE%BURT INSIGHT PIKE %RED%+++%MAPICON(15,11)%%NOTIFY(ITEM)%%NOTIFYSOUND(sor1)%{%RED%Insight%WHITE%: %ORANGE%RalTirTalSoL}
 ItemDisplay[NMAG 9p9 SOCK=4 !ETH ILVL<85]: %RED%+++ %RED%BURT INSIGHT LANCE %RED%+++ %BLUE%(%SOCKETS%)%MAPICON(15,11)%%NOTIFY(ITEM)%%NOTIFYSOUND(sor2)%{%RED%Insight%WHITE%: %ORANGE%RalTirTalSoL}
+ItemDisplay[NMAG 9p9 SOCK=0 !ETH ILVL<85]: %RED%+++ %RED%LANCE %RED%+++ %BLUE%%MAPICON(15,11)%%NOTIFY(ITEM)%%NOTIFYSOUND(sor2)%{%ORANGE%Ral %WHITE%+ %ORANGE%Amn %WHITE%+ %PURPLE%P AME%NL%%RED%Socket Recipe%WHITE%:}
 ItemDisplay[NMAG 7p7 SOCK=4 !ETH]: %RED%+++ %PURPLE%BURT INSIGHT WP %RED%+++ %BLUE%(%SOCKETS%)%MAPICON(15,11)%%NOTIFY(ITEM)%%NOTIFYSOUND(sor1)%{%RED%Insight%WHITE%: %ORANGE%RalTirTalSoL}
 ItemDisplay[NMAG 7p7 SOCK=5 !ETH]: %RED%+++ %PURPLE%BURT OBEDIENCE WP %RED%+++ %BLUE%(%SOCKETS%)%MAPICON(15,11)%%NOTIFY(ITEM)%%NOTIFYSOUND(sor1)%
 //ItemDisplay[NMAG 7br SOCK=0 !SUP]: %RED%+ %ORANGE%%NAME% %RED%+{%ORANGE%Ral %WHITE%+ %ORANGE%Amn %WHITE%+ %PURPLE%P AME%NL%%RED%Socket Recipe%WHITE%:}
