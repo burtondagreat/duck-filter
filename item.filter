@@ -1,6 +1,6 @@
 //╔══════════════════════════════════════════╗
 //║ L@@K ^^ Item Codes @ Path of Diablo Wiki ║
-//║ Duck Filter 4.12 Release                 ║
+//║ Duck Filter 4.11 Release                 ║
 //║ PATCH: goodnight or something       Quack║
 //╚══════════════════════════════════════════╝
 
@@ -581,9 +581,9 @@ ItemDisplay[NMAG CL1 SOCK>1 ETH]:
 ItemDisplay[NMAG CL1 SOCK>1 ILVL>27]:
 ItemDisplay[NMAG CL1 SOCK=0]:
 // CL2
-ItemDisplay[NMAG CL2 !ETH SK149>2 SOCK=2 ILVL<64]: %ORANGE%BO Lore
-ItemDisplay[NMAG CL2 !ETH SK154>2 SOCK=2 ILVL<64]: %ORANGE%War Cry Lore
-ItemDisplay[NMAG CL2 !ETH SK153>2 SOCK=2 ILVL<64]: %ORANGE%Nat Res Lore
+ItemDisplay[NMAG CL2 !ETH SK149>2 SOCK=2 ILVL<65]: %ORANGE%BO Lore
+ItemDisplay[NMAG CL2 !ETH SK154>2 SOCK=2 ILVL<65]: %ORANGE%War Cry Lore
+ItemDisplay[NMAG CL2 !ETH SK153>2 SOCK=2 ILVL<65]: %ORANGE%Nat Res Lore
 //ItemDisplay[NMAG CL2 !ETH SK138=3 SOCK=0]: %WHITE%+3 %ORANGE%Shout Helm
 //ItemDisplay[NMAG CL2 !ETH SK142=3 SOCK=0]: %WHITE%+3 %ORANGE%Find Item Helm
 //ItemDisplay[NMAG CL2 !ETH SK149=3 SOCK=0]: %WHITE%+3 %ORANGE%BO Helm
@@ -639,6 +639,7 @@ ItemDisplay[NMAG CL3 ETH SOCK=0 (RES>25 AND RES<45)]:
 ItemDisplay[NMAG CL3 ETH SOCK=4 RES=45]:
 ItemDisplay[NMAG CL3 ETH SOCK=4 (RES>25 AND RES<45)]:
 ItemDisplay[NMAG CL3 SOCK>3 !ETH RES>20 ILVL<64]: %ORANGE%Pally Spirit %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG CL3 SOCK=0 !ETH RES>20 ILVL=28]: %ORANGE%Pally Spirit %BLUE%(Larzuk)
 ItemDisplay[NMAG CL3 SOCK>1 !ETH ILVL<28]: %NAME% %BLUE%(%SOCKETS%)
 ItemDisplay[NMAG CL3 SOCK>1 ETH ILVL<28]:
 ItemDisplay[NMAG CL3 SOCK>1 ILVL>27]:
