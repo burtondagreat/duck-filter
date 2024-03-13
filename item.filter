@@ -526,7 +526,7 @@ ItemDisplay[SET !ID xsk]: %GREEN%x %DARK_GREEN%Tal Rasha's Horadric Crest %GREEN
 // SET Filter
 ItemDisplay[SET !ID !ETH ILVL>98]: %GREEN%%NAME% %PURPLE%99 wow so cool
 ItemDisplay[SET !ID ILVL<71]: %NAME%
-ItemDisplay[SET !ID ILVL<87]: %BLACK%TUMOR DONATION %GREEN%%NAME%
+ItemDisplay[SET !ID ILVL<99]: %BLACK%TUMOR DONATION %GREEN%%NAME%
 ItemDisplay[SET !ID ILVL>86]:
 //╔══════╗
 //║ NMAG ║
