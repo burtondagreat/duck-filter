@@ -1476,6 +1476,5 @@ ItemDisplay[UNI !ID ama !ETH]: %GOLD%xxx %PURPLE%Titan's Revenge %GOLD%xxx%MAPIC
 ItemDisplay[UNI !ID !ETH ILVL>98]: %GOLD%%NAME% %PURPLE%99 wow so cool!
 ItemDisplay[UNI !ID !ETH ILVL<71]: %NAME%
 ItemDisplay[UNI !ID ETH ILVL<71]: eth %NAME%
-ItemDisplay[UNI !ID ILVL<86]: %BLACK%OMEGALUL %TAN%%NAME% %BLACK%OMEGALUL
-ItemDisplay[UNI !ID ILVL>85]:
+ItemDisplay[UNI !ID ILVL<99]: %ORANGE%THE GRAIL %TAN%%NAME% %ORANGE%THE GRAIL
 // End of Loot Filter
