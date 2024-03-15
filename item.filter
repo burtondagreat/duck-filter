@@ -1,6 +1,6 @@
 //╔══════════════════════════════════════════╗
 //║ L@@K ^^ Item Codes @ Path of Diablo Wiki ║
-//║ Duck Filter 4.12 Release                 ║
+//║ Duck Filter 4.13 Release                 ║
 //║ PATCH: goodnight or something       Quack║
 //╚══════════════════════════════════════════╝
 
@@ -93,7 +93,7 @@ ItemDisplay[toa]: %ORANGE%Token of Absolution
 //╚══════════════╝
 // +3/20 Gloves
 ItemDisplay[MAG ID EQ4 !ETH TABSK0>2 IAS=20]: %RED%xxxxxxxxxxx %PURPLE%Bowazon Gloves %RED%xxxxxxxxxxx%MAPICON(15,11)%%NOTIFY(ITEM)%
-ItemDisplay[MAG ID EQ4 !ETH TABSK2>2 IAS=20]: %RED%xxxxxxxxxxx %PURPLE%Javazon Gloves %RED%xxxxxxxxxxx%MAPICON(15,11)%%NOTIFY(ITEM)%
+ItemDisplay[MAG ID EQ4 !ETH TABSK2>2 IAS>10]: %RED%xxxxxxxxxxx %PURPLE%Javazon Gloves %RED%xxxxxxxxxxx%MAPICON(15,11)%%NOTIFY(ITEM)%
 ItemDisplay[MAG ID EQ4 !ETH TABSK50>2 IAS=20]: %RED%xxxxxxxxxxx %PURPLE%Martial Gloves %RED%xxxxxxxxxxx%MAPICON(15,11)%%NOTIFY(ITEM)%
 // +6 Skill
 ItemDisplay[MAG ID CL5 (TABSK48>2 AND SK251>2)]: %RED%xxxxxxxxx %PURPLE%Fire Blast Claw %RED%xxxxxxxxx%MAPICON(15,11)%%NOTIFY(ITEM)%
@@ -277,57 +277,56 @@ ItemDisplay[r33]: %GREEN%HYPE! %BLACK%(: %PURPLE%xxxxxxxxxxx %RED%ZAH!~ %PURPLE%
 //║ CRAFTING ║
 //╚══════════╝
 // Hit Power
-ItemDisplay[MAG 7ws ILVL>70]:
-ItemDisplay[MAG 6ws ILVL>70]:
-ItemDisplay[MAG 7m7 ILVL>70]:
-ItemDisplay[MAG 7gm ILVL>70]:
-ItemDisplay[MAG 7wh ILVL>70]:
-ItemDisplay[MAG 7fl ILVL>70]:
-ItemDisplay[MAG umg ILVL>70]:
-ItemDisplay[MAG xmg ILVL>70]:
-ItemDisplay[MAG uld ILVL>70]:
-ItemDisplay[MAG uts ILVL>70]:
+//ItemDisplay[MAG 7ws ILVL>70]:
+//ItemDisplay[MAG 6ws ILVL>70]:
+//ItemDisplay[MAG 7m7 ILVL>70]:
+//ItemDisplay[MAG 7gm ILVL>70]:
+//ItemDisplay[MAG 7wh ILVL>70]:
+//ItemDisplay[MAG 7fl ILVL>70]:
+//ItemDisplay[MAG umg ILVL>70]:
+//ItemDisplay[MAG xmg ILVL>70]:
+//ItemDisplay[MAG uld ILVL>70]:
+//ItemDisplay[MAG uts ILVL>70]:
 // Blood
 //ItemDisplay[MAG hlm]: %RED% Blood Helm %ORANGE%%ILVL%
 //ItemDisplay[MAG xlm]: %RED% Blood Helm %ORANGE%%ILVL%
-ItemDisplay[MAG 7wa ILVL>70]:
-ItemDisplay[MAG 7mp ILVL>70]:
-ItemDisplay[MAG 72a ILVL>70]:
-ItemDisplay[MAG 7gi ILVL>70]:
-ItemDisplay[MAG 7ga ILVL>70]:
-ItemDisplay[MAG 7ba ILVL>70]:
-ItemDisplay[MAG 7bt ILVL>70]:
-ItemDisplay[MAG ult ILVL>70]:
-ItemDisplay[MAG upk ILVL>70]:
-ItemDisplay[MAG ulm ILVL>70]:
-ItemDisplay[MAG umc ILVL>70]:
-ItemDisplay[MAG zmb ILVL>70]:
-ItemDisplay[MAG utb ILVL>70]:
-ItemDisplay[MAG xtb ILVL>70]:
-ItemDisplay[MAG uvg ILVL>70]:
+//ItemDisplay[MAG 7wa ILVL>70]:
+//ItemDisplay[MAG 7mp ILVL>70]:
+//ItemDisplay[MAG 72a ILVL>70]:
+//ItemDisplay[MAG 7gi ILVL>70]:
+//ItemDisplay[MAG 7ga ILVL>70]:
+//ItemDisplay[MAG 7ba ILVL>70]:
+//ItemDisplay[MAG 7bt ILVL>70]:
+//ItemDisplay[MAG ult ILVL>70]:
+//ItemDisplay[MAG upk ILVL>70]:
+//ItemDisplay[MAG ulm ILVL>70]:
+//ItemDisplay[MAG umc ILVL>70]:
+//ItemDisplay[MAG zmb ILVL>70]:
+//ItemDisplay[MAG utb ILVL>70]:
+//ItemDisplay[MAG xtb ILVL>70]:
+//ItemDisplay[MAG uvg ILVL>70]:
 // Caster
-ItemDisplay[MAG 7qs ILVL>70]:
-ItemDisplay[MAG 6bs ILVL>70]:
-ItemDisplay[MAG 7gw ILVL>70]:
+//ItemDisplay[MAG 7qs ILVL>70]:
+//ItemDisplay[MAG 6bs ILVL>70]:
+//ItemDisplay[MAG 7gw ILVL>70]:
 ItemDisplay[MAG uvc ILVL>70]: %BLUE%CASTER(vfang) %RED%(ith ame) %BLACK%DOAH
 ItemDisplay[MAG zvb ILVL>70]: %BLUE%CASTER BELT %RED%(ith ame) %BLACK%DOAH
-ItemDisplay[MAG usk ILVL>70]:
-ItemDisplay[MAG xsk ILVL>70]:
-ItemDisplay[MAG uml ILVL>70]:
-ItemDisplay[MAG utp ILVL>70]:
-ItemDisplay[MAG ulg ILVL>70]:
-ItemDisplay[MAG ulb ILVL>70]:
+//ItemDisplay[MAG usk ILVL>70]:
+//ItemDisplay[MAG xsk ILVL>70]:
+//ItemDisplay[MAG uml ILVL>70]:
+//ItemDisplay[MAG utp ILVL>70]:
+//ItemDisplay[MAG ulg ILVL>70]:
+//ItemDisplay[MAG ulb ILVL>70]:
 // Safety
-ItemDisplay[MAG 7p7 ILVL>70]:
-ItemDisplay[MAG 7st ILVL>70]:
-ItemDisplay[MAG amf ILVL>70]:
-ItemDisplay[MAG uit ILVL>70]:
-ItemDisplay[MAG urn ILVL>70]:
-ItemDisplay[MAG urs ILVL>70]:
-ItemDisplay[MAG uhb ILVL>70]:
-ItemDisplay[MAG xhb ILVL>70]:
-ItemDisplay[MAG xhg ILVL>70]:
-ItemDisplay[MAG ulc ILVL>70]:
+//ItemDisplay[MAG 7p7 ILVL>70]:
+//ItemDisplay[MAG amf ILVL>70]:
+//ItemDisplay[MAG uit ILVL>70]:
+//ItemDisplay[MAG urn ILVL>70]:
+//ItemDisplay[MAG urs ILVL>70]:
+//ItemDisplay[MAG uhb ILVL>70]:
+//ItemDisplay[MAG xhb ILVL>70]:
+//ItemDisplay[MAG xhg ILVL>70]:
+//ItemDisplay[MAG ulc ILVL>70]:
 //╔═════════╗
 //║ DISPLAY ║
 //╚═════════╝
@@ -377,8 +376,8 @@ ItemDisplay[MAG !ID EQ4 !ETH]: %NAME% %RED%probably sucks
 ItemDisplay[MAG !ID cm1]: %ORANGE%charm %GRAY%%ILVL%%MAPICON(15,11)%%NOTIFY(ITEM)%%NOTIFYSOUND(sor1)%
 ItemDisplay[MAG !ID cm3]: %BLACK%* %ORANGE%CHARM %BLACK%*%GRAY%%ILVL%%MAPICON(15,11)%%NOTIFY(ITEM)%%NOTIFYSOUND(sor1)%
 ItemDisplay[MAG !ID cm2 ILVL<70]: %BLACK%- %BLUE%large %BLACK%-%GRAY%%ILVL%
-ItemDisplay[MAG !ID ci0 !ETH ILVL>59]: %RED%+ %BLUE%%NAME% %RED%+
-ItemDisplay[MAG !ID ci1 !ETH ILVL>59]: %RED%+ %BLUE%%NAME% %RED%+
+//ItemDisplay[MAG !ID ci0 !ETH ILVL>59]: %RED%+ %BLUE%%NAME% %RED%+
+//ItemDisplay[MAG !ID ci1 !ETH ILVL>59]: %RED%+ %BLUE%%NAME% %RED%+
 ItemDisplay[MAG !ID ci2 !ETH ILVL>59]: %RED%+ %BLUE%%NAME% %RED%+
 ItemDisplay[MAG !ID ci3 !ETH ILVL>59]: %RED%+ %BLUE%%NAME% %RED%+
 ItemDisplay[MAG !ID jew]: %NAME%
@@ -397,7 +396,7 @@ ItemDisplay[MAG !ID ILVL>27]:
 //║ RARES ║
 //╚═══════╝
 ItemDisplay[RARE !ID aq2]: %PURPLE%+ %YELLOW%%NAME% %PURPLE%+
-//ItemDisplay[RARE !ID cq2]: %PURPLE%+ %YELLOW%%NAME% %PURPLE%+
+ItemDisplay[RARE !ID cq2]: %PURPLE%+ %YELLOW%%NAME% %PURPLE%+ %RED%bolts 4 burts%MAPICON(15,11)%%NOTIFY(ITEM)%
 //ItemDisplay[RARE !ID cq2]:
 ItemDisplay[RARE !ID amu]: %RED%++ %YELLOW%%NAME% %RED%++%MAPICON(15,11)%%NOTIFY(ITEM)%
 ItemDisplay[RARE !ID rin]: %RED%++ %YELLOW%%NAME% %RED%++%MAPICON(15,11)%%NOTIFY(ITEM)%
@@ -480,7 +479,7 @@ ItemDisplay[RARE !ID ILVL>27]:
 //║ SETS ║
 //╚══════╝
 ItemDisplay[SET !ID amu]: %RED%++ %GREEN%NOT TAL AMMY %RED%++%MAPICON(15,11)%%NOTIFY(ITEM)%%NOTIFYSOUND(holyshit)%
-ItemDisplay[SET !ID rin ILVL<87]: %GREEN%+ %DARK_GREEN%CATHAN %GREEN%+%MAPICON(15,11)%%NOTIFY(ITEM)%%NOTIFYSOUND(wow3)%
+ItemDisplay[SET !ID rin ILVL<99]: %GREEN%+ %DARK_GREEN%CATHAN %GREEN%+%MAPICON(15,11)%%NOTIFY(ITEM)%%NOTIFYSOUND(wow3)%
 ItemDisplay[SET !ID uar]: %GREEN%xxxxx %PURPLE%Immortal King's Soul Cage %GREEN%xxxxx :D%MAPICON(15,11)%%NOTIFY(ITEM)%%NOTIFYSOUND(holyshit)%
 ItemDisplay[SET !ID uth]: %GREEN%xxxxx %PURPLE%Tal Rasha's Guardianship %GREEN%xxxxx%MAPICON(15,11)%%NOTIFY(ITEM)%%NOTIFYSOUND(holyshit)%
 //ItemDisplay[SET !ID oba]: %GREEN%xxx %GREEN%Tal Rasha's Lidless Eye %GREEN%xxx
@@ -560,7 +559,8 @@ ItemDisplay[NMAG CL1 !ETH SK245=3 SOCK=2 ILVL<64]: %ORANGE%Tornado Lore%MAPICON(
 ItemDisplay[NMAG CL1 !ETH SK247=3 SOCK=2 ILVL<64]: %WHITE%+3 %ORANGE%Grizzly Bear Pelt%MAPICON(15,11)%%NOTIFY(ITEM)%%NOTIFYSOUND(wow2)%
 //ItemDisplay[NMAG CL1 !ETH SK221=3 SOCK=0]: %WHITE%+3 %ORANGE%Raven Pelt
 //ItemDisplay[NMAG CL1 !ETH SK229=3 SOCK=0]: %WHITE%+3 %ORANGE%Boulder Pelt
-//ItemDisplay[NMAG CL1 !ETH SK238=3 SOCK=0]: %WHITE%+3 %ORANGE%Rabies Pelt
+ItemDisplay[NMAG CL1 !ETH SK238>2 SOCK>2]: %WHITE%+3 %ORANGE%Rabies Pelt %BLUE%(%SOCKETS%)
+ItemDisplay[NMAG CL1 !ETH SK238>2 SOCK=0]: %WHITE%+3 %ORANGE%Rabies Pelt
 //ItemDisplay[NMAG CL1 !ETH SK239=3 SOCK=0]: %WHITE%+3 %ORANGE%Fire Claws Pelt
 //ItemDisplay[NMAG CL1 !ETH SK243=3 SOCK=0]: %WHITE%+3 %ORANGE%Shockwave Pelt
 //ItemDisplay[NMAG CL1 !ETH SK244=3 SOCK=0]: %WHITE%+3 %ORANGE%Volcano Pelt
